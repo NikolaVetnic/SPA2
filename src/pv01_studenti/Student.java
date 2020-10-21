@@ -20,13 +20,13 @@ public class Student implements Comparable<Student> {
 	public int compareTo(Student that) {
 		
 		
-//		return this.god - that.god;																			// sortiranje #1
+//		return this.god - that.god;
 		
-//		return this.prezime.compareTo(that.prezime) != 0 ? 													// sortiranje #2
+//		return this.prezime.compareTo(that.prezime) != 0 ?
 //			   this.prezime.compareTo(that.prezime) : this.ime.compareTo(that.ime);
 			   
 		return this.god - that.god != 0 ? 
-			   this.god - that.god : this.prezime.compareTo(that.prezime) != 0 ? 							// sortiranje #3
+			   this.god - that.god : this.prezime.compareTo(that.prezime) != 0 ?
 					   				 this.prezime.compareTo(that.prezime) : this.ime.compareTo(that.ime);
 	}
 

@@ -12,11 +12,11 @@ Rešeni zadaci sa vežbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 
 ## Teorijske vezbe
 <ul>
-<li>tv01_automobil</li>
+<li>tv01_automobil - kostur klase koja demonstrira osnovne koncepte obradjivane na predmetu</li>
 </ul>
 
 ## Prakticne vezbe
 <ul>
-<li>pv01_knjige</li>
-<li>pv01_studenti</li>
+<li>pv01_knjige - demonstracioni zadatak sa prvih prakticnih vezbi</li>
+<li>pv01_studenti - domaci zadatak sa prvih prakticnih vezbi</li>
 </ul>

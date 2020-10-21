@@ -1,4 +1,4 @@
-package pv01;
+package pv01_knjige;
 
 public class Knjiga implements Comparable<Knjiga> {
 	

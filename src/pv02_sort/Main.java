@@ -116,8 +116,6 @@ public class Main {
 	}
 }
 
-
-
 class KompozitniKomparator implements Comparator<Student> {
 	
 	private final Comparator<Student> prim;

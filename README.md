@@ -19,4 +19,7 @@ Rešeni zadaci sa vežbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 <ul>
 <li>pv01_knjige - demonstracioni zadatak sa prvih prakticnih vezbi</li>
 <li>pv01_studenti - domaci zadatak sa prvih prakticnih vezbi</li>
+<li>pv02_sort - domaci zadatak sa drugih prakticnih vezbi</li>
+<li>pv03_flight - demonstracioni zadatak sa trecih prakticnih vezbi</li>
+<li>pv03_fudbaleri - domaci zadatak sa trecih prakticnih vezbi</li>
 </ul>

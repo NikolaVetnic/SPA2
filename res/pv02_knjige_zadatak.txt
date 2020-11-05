@@ -1,0 +1,99 @@
+************************************************************
+                Zadatak za vežbu - sortiranje 2
+************************************************************
+
+Zadatak
+============================================================
+
+Zadatak sa prvih vezbi prosiriti sledecim funkcionalnostima:
+
+metod za sortiranje
+-------------------
+
+umesto da se koristi Arrays.sort, napisati sopstveni metod koji radi
+sortiranje.  Koristiti proizvoljnu metodu za sortiranje, a preporucuje se
+jedna od elementarnih metoda koje su opisane nize.
+
+
+napraviti komparatore
+---------------------
+
+komparatori su klase koje uporedjuju elemente neke druge klase.  Ovako se
+omogucava da se isti objekti mogu porediti na razlicite nacine, a ne samo na
+nacin definisan u `compareTo` metodu klase.
+
+Da se ovakav komparator koristi u `Arrays.sort` treba dodati njegovu
+instancu kao drugi parametar u pozivu metod, na primer
+
+   Arrays.sort(mojNiz, new MojKomparatorNizova())
+
+Da bi se komparator koristio u sopstvenom metodu isto se moze definisati
+drugi parametar tipa Comparator ciji metod `compare` ce se onda pozivati u
+kodu umesto `compareTo` na objektu.  Na primer
+
+   //umesto
+   if (o.compareTo(o2)>0)
+   //koristiti
+   if (comp.compare(o,o2)>0)
+
+
+ponuditi korisniku izbor sortiranja
+-----------------------------------
+
+Ponuditi korisniku da bira po cemu ce biti sortiran niz i na osnovu
+odabira koristiti odgovarajuci komparator za sortiranje.
+
+Ponuditi bar sledece opcije:
+- id
+- naslov
+- autor
+- autor/naslov
+
+
+Metode sortiranja
+============================================================
+
+Postoje tri elementarne metode sortiranja.
+
+
+Sortiranje umetanjem (insertion)
+------------------------------------------------------------
+
+Pretpostavimo da je pocetak niza sortiran. Prvi element iz
+nesortiranog dela niza ubacujemo u sortirani deo na
+odgovarajuce mesto i to ponavljamo dokle god ne dodjemo do
+kraja niza.
+
+
+Sortiranje izabiranjem (selection)
+------------------------------------------------------------
+
+Pretpostavimo da je pocetak niza, prvih K elemenata,
+sortiran i da je u njemu K najmanjih elemenata. U
+nesortiranom delu niza nadjemo najmanji element i postavimo
+ga na pocetak nesortiranog dela.
+
+
+Sortiranje razmenom (exchange)
+------------------------------------------------------------
+
+Pretpostavimo da je pocetak niza, prvih K elemenata,
+sortiran i da je u njemu K najmanjih elemenata. Prolazimo
+kroz nesortirani deo, od kraja prema pocetku i za svaka dva
+elementa razmenimo mesta ako "stoje pogresno".
+
+Takodje je poznato pod imenom "Bubble sort".
+
+
+Poredjenje metoda
+============================================================
+
+Sortiranje razmenom u opstem slucaju daje najgore rezultate.
+
+Sortiranje izabiranjem je najbolje ukoliko su elementi niza
+veliki, odnosno ako je operacija poredjenja brza od
+premestanja elemenata u nizu.
+
+Sortiranje umetanjem daje najbolje rezultate ukoliko su
+elementi niza mali ili je poredjenje komplikovano, tj ako
+je premestanje brze od poredjenja.

@@ -1,0 +1,63 @@
+************************************************************
+                Zadatak za vežbu - sortiranje 1
+************************************************************
+
+Napisati program koji ucitava niz knjiga iz fajla, sortira
+ih i ispisuje u drugi fajl. Imena fajlova zadaje korisnik.
+
+
+Format fajla
+------------
+
+Fajl je formatiran na sledeci nacin:
+
+U prvom redu stoji broj N.
+
+Posle njega sledi opis N elemenata niza.
+
+Svaki element je predstavljen u tri reda. U prvom redu se
+nalazi Id knjige, tipa `int`, u sledecem je ime knjige, a
+u trecem ime pisca. Imena su stringovi.
+
+  Id
+  Naslov
+  Pisac
+
+Dati su fajlovi knjige12.txt i knjige146.txt sa po 12 i 146
+knjiga u njima, respektivno, na kojima se moze testirati 
+program.
+
+Predpostaviti ako fajl postoji da je ispravan, odnosno da
+je u tacno opisanom formatu.
+
+
+O sortiranju
+------------
+
+Za sortiranje koristiti metod `sort` iz klase `Arrays` iz
+paketa `java.util`.
+
+Klasa koja predstavlja knjigu treba da implementira interfejs
+`Comparable` i da ima svoj `compareTo` metod da bi niz
+mogao biti sortiran gore pomenutim metodom. Na primer
+
+    class Knjiga implements Comparable<Knjiga> {
+    ...
+		public int compareTo(Knjiga druga) {
+		....
+		}
+    ...
+    }
+
+
+Najjednostavnija varijanta je da se niz knjiga sortira po id-u
+knjige.
+
+Kada se testira da to radi, prepraviti da se knjige sortiraju
+po piscu i po naslovu, odnosno kod njiga kod kojih je pisac isti
+knjige treba da su sortirane po naslovu.
+
+Sortirani niz snimiti u novi fajl u formatu kao u ulaznom fajlu.
+Ovo se najbolje testira tako sto se program ponovo pokrene i 
+ucita se novonapravljeni fajl.  Ako program normalno ucita i 
+snimi podatke trebalo bi da je zadovoljen format.

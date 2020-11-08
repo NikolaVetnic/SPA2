@@ -3,11 +3,10 @@ Rešeni zadaci sa vežbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 
 ## Predavanja
 <ul>
-<li>p01_bogosort</li>
-<li>p01_bruteforce</li>
+<li>p01_bruteforce - demonstracija Brute Force sortiranja sa prirodnim uredjenjem i komparatorom</li>
 <li>p01_comparable</li>
 <li>p01_comparator</li>
-<li>p01_insertion</li>
+<li>p01_elementary_sorts - Bogosort, Brute Force, Bubble, Comb, Insertion, Selection, Shell</li>
 </ul>
 
 ## Teorijske vezbe

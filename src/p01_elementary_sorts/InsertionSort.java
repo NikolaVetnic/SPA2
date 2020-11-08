@@ -1,7 +1,8 @@
-package p01_insertion;
+package p01_elementary_sorts;
 
 public class InsertionSort {
 	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void insertionSort_v1(Comparable[] arr) {
 		
 		// podniz od jednog elementa je sortiran
@@ -25,7 +26,7 @@ public class InsertionSort {
 		}
 	}
 	
-	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void insertionSort_v2(Comparable arr[]) {
 		
 		for (int i = 1; i < arr.length; i++) {
@@ -60,6 +61,7 @@ public class InsertionSort {
 	 * dući da ne postoji element sa indeksom -1.
 	 */
 	 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	 public static void insertionSort_v3(Comparable[] arr) {
 		 
 		int minInd = 0;

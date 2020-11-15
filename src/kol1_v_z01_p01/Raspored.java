@@ -1,4 +1,4 @@
-package kol1_v_z01;
+package kol1_v_z01_p01;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

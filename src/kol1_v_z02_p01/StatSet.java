@@ -1,4 +1,4 @@
-package kol1_v_z02;
+package kol1_v_z02_p01;
 
 import java.util.AbstractSet;
 import java.util.Collection;

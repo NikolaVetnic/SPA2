@@ -1,0 +1,37 @@
+12
+202
+A Clash of Kings
+George R.R. Martin
+211
+The Gunslinger
+Stephen King
+214
+Wizard and Glass
+Stephen King
+201
+A Game of Thrones
+George R.R. Martin
+205
+A Dance with Dragons
+George R.R. Martin
+212
+The Drawing of the Three
+Stephen King
+213
+The Waste Lands
+Stephen King
+217
+The Dark Tower
+Stephen King
+203
+A Storm of Swords
+George R.R. Martin
+215
+Wolves of the Calla
+Stephen King
+204
+A Feast for Crows
+George R.R. Martin
+216
+Song of Susannah
+Stephen King

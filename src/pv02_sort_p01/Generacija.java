@@ -1,4 +1,4 @@
-package pv02_sort;
+package pv02_sort_p01;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

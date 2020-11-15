@@ -1,4 +1,4 @@
-package pv01_studenti;
+package pv01_studenti_p01;
 
 import java.util.Arrays;
 

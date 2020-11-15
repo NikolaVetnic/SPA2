@@ -1,4 +1,4 @@
-package pv02_sort;
+package pv02_sort_p01;
 
 public class Student implements Comparable<Student> {
 	

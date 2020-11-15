@@ -1,0 +1,439 @@
+146
+13
+All Passion Spent
+Vita Sackville-West
+38
+A Darkling Plain
+Philip Reeve
+65
+Nectar in a Sieve
+Kamala Markandaya
+125
+Terrible Swift Sword
+Bruce Catton
+11
+Of Human Bondage
+W. Somerset Maugham
+131
+The Other Side of Silence
+Andre Brink
+15
+Look Homeward, Angel
+Thomas Wolfe
+81
+Consider Phlebas
+Iain M. Banks
+37
+If Not Now, When?
+Primo Levi
+85
+Quo Vadis
+Henryk Sienkiewicz
+109
+The House of Mirth
+Edith Wharton
+39
+His Dark Materials
+Philip Pullman
+66
+Noli Me Tangere
+Jos Rizal
+68
+East of Eden
+John Steinbeck
+117
+Brandy of the Damned
+Colin Wilson
+92
+Oh! To be in England
+H. E. Bates
+35
+The Golden Apples of the Sun
+Ray Bradbury
+12
+The Painted Veil
+W. Somerset Maugham
+58
+The Green Bay Tree
+Louis Bromfield
+97
+Arms and the Man
+George Bernard Shaw
+108
+A Fanatic Heart
+Edna O'Brien
+115
+No Country for Old Men
+Cormac McCarthy
+18
+The Wives of Bath
+Susan Swan
+25
+Tiger! Tiger!
+Rudyard Kipling short story
+106
+For Whom the Bell Tolls
+Ernest Hemingway
+114
+Down to a Sunless Sea
+David Graham
+136
+The Doors of Perception
+Aldous Huxley
+30
+I Will Fear No Evil
+Robert A. Heinlein
+82
+Look to Windward
+Iain M. Banks
+32
+To Sail Beyond the Sunset
+Robert A. Heinlein
+104
+Vile Bodies
+Evelyn Waugh
+112
+Clouds of Witness
+Dorothy L. Sayers
+21
+The Stars' Tennis Balls
+Stephen Fry
+53
+The Curious Incident of the Dog in the Night-time
+Mark Haddon
+130
+An Instant In The Wind
+Andre Brink
+142
+Endless Night
+Agatha Christie
+121
+The Cricket on the Hearth
+Charles Dickens
+143
+The Mirror Crack'd from Side to Side
+Agatha Christie
+45
+Blithe Spirit
+Noel Coward
+20
+Moab Is My Washpot
+Stephen Fry
+63
+Mother Night
+Kurt Vonnegut
+34
+Recalled to Life
+Reginald Hill
+44
+Cabbages and Kings
+O. Henry
+101
+Tender Is the Night
+F. Scott Fitzgerald
+102
+This Side of Paradise
+F. Scott Fitzgerald
+94
+The Yellow Meads of Asphodel
+H. E. Bates
+27
+Recalled to Life
+Robert Silverberg
+78
+Let Us Now Praise Famous Men
+James Agee
+33
+Some Buried Caesar
+Rex Stout
+140
+The Line of Beauty
+Alan Hollinghurst
+128
+The Soldier's Art
+Anthony Powell
+77
+Mr Standfast
+John Buchan
+17
+The Waste Land
+T. S. Eliot
+129
+What's Become of Waring
+Anthony Powell
+24
+The Way of All Flesh
+Samuel Butler
+26
+For a Breath I Tarry
+Roger Zelazny
+71
+Of Mice and Men
+John Steinbeck
+7
+Ego Dominus Tuus
+William Butler Yeats
+124
+Surprised by Joy
+C. S. Lewis
+10
+The Alien Corn (short story)
+W. Somerset Maugham
+95
+Dying of the Light
+George R. R. Martin
+87
+A Many-Splendoured Thing
+Han Suyin
+29
+The Monkey's Raincoat
+Robert Crais
+3
+As I Lay Dying
+William Faulkner
+69
+The Grapes of Wrath
+John Steinbeck
+4
+If I Forget Thee Jerusalem
+William Faulkner
+70
+In Dubious Battle
+John Steinbeck
+46
+No Highway
+Nevil Shute
+52
+The World, the Flesh and the Devil
+Mary Elizabeth Braddon
+83
+Consider the Lilies
+Iain Crichton Smith
+72
+To a God Unknown
+John Steinbeck
+119
+No Longer at Ease
+Chinua Achebe
+2
+Absalom, Absalom!
+William Faulkner
+90
+How Sleep the Brave
+H. E. Bates
+137
+Eyeless in Gaza
+Aldous Huxley
+141
+Butter In a Lordly Dish
+Agatha Christie
+6
+Lilies of the Field
+William Edmund Barrett
+113
+O Jerusalem!
+Dominique Lapierre and Larry Collins
+42
+Cover Her Face
+P. D. James
+103
+A Handful of Dust
+Evelyn Waugh
+55
+The Moon by Night
+Madeleine L'Engle
+99
+Bonjour Tristesse
+Fransoise Sagan
+73
+A Confederacy of Dunces
+John Kennedy Toole
+67
+Everything is Illuminated
+Jonathan Safran Foer
+60
+The Little Foxes
+Lillian Hellman
+122
+The Heart Is a Lonely Hunter
+Carson McCullers
+105
+Ah, Wilderness!
+Eugene O'Neill
+19
+Time of our Darkness
+Stephen Gray
+43
+The Skull Beneath the Skin
+P. D. James
+61
+Time To Murder And Create
+Lawrence Block
+59
+Number the Stars
+Lois Lowry
+47
+Alone on a Wide, Wide Sea
+Michael Morpurgo
+9
+Dulce et Decorum Est
+Wilfred Owen
+74
+Death Be Not Proud
+John Gunther
+145
+Postern of Fate
+Agatha Christie
+139
+Those Barren Leaves
+Aldous Huxley
+89
+Fair Stood the Wind for France
+H. E. Bates
+62
+A Monstrous Regiment of Women
+Laurie R. King
+36
+I Sing the Body Electric
+Ray Bradbury
+118
+The Way Through the Woods
+Colin Dexter
+132
+Tiger! Tiger! - alternative title of The Stars My Destination
+Alfred Bester
+5
+Shall not Perish
+William Faulkner
+56
+A Swiftly Tilting Planet
+Madeleine L'Engle
+93
+When the Green Woods Laugh
+H. E. Bates
+98
+Ring of Bright Water
+Gavin Maxwell
+100
+The Violent Bear It Away
+Flannery O'Connor
+49
+Specimen Days
+Michael Cunningham
+96
+Such, Such Were the Joys
+George Orwell
+120
+Things Fall Apart
+Chinua Achebe
+14
+The Lathe of Heaven
+Ursula K. Le Guin
+40
+In a Dry Season
+Peter Robinson
+8
+O Pioneers!
+Willa Cather
+107
+The Sun Also Rises
+Ernest Hemingway
+48
+Behold the Man
+Michael Moorcock
+144
+The Moving Finger
+Agatha Christie
+79
+Waiting for the Barbarians
+J.M. Coetzee
+88
+The Daffodil Sky
+H. E. Bates
+75
+A Time to Kill
+John Grisham
+28
+All the King's Men
+Robert Penn Warren
+54
+Gone with the Wind
+Margaret Mitchell
+80
+The Proper Study
+Isaac Asimov
+135
+Beyond the Mexique Bay
+Aldous Huxley
+146
+The Wealth of Nations
+Adam Smith
+91
+Now Sleeps the Crimson Petal
+H. E. Bates
+51
+Precious Bane
+Mary Webb
+64
+The Far-Distant Oxus
+Katharine Hull and Pamela Whitlock
+111
+Where Angels Fear to Tread
+E. M. Forster
+57
+The Road Less Traveled
+M. Scott Peck
+1
+Vanity Fair
+William Makepeace Thackeray
+16
+Far From the Madding Crowd
+Thomas Hardy
+41
+The Parliament of Man
+Paul Kennedy
+23
+Alien Corn (play)
+Sidney Howard
+110
+A Passage to India
+E. M. Forster
+133
+After Many a Summer Dies the Swan
+Aldous Huxley
+123
+A che punto a la notte
+Carlo Fruttero and Franco Lucentini
+126
+An Evil Cradling
+Brian Keenan
+50
+I Know Why the Caged Bird Sings
+Maya Angelou
+134
+Antic Hay
+Aldous Huxley
+22
+Fear and Trembling
+Soren Kierkegaard
+116
+To Say Nothing of the Dog
+Connie Willis
+76
+Great Work of Time
+John Crowley
+127
+A Glass of Blessings
+Barbara Pym
+84
+Fame Is the Spur
+Howard Spring
+86
+The Golden Bowl
+Henry James
+138
+Jesting Pilate
+Aldous Huxley
+31
+Stranger in a Strange Land
+Robert A. Heinlein

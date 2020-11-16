@@ -1,0 +1,72 @@
+Rad sa skupovima, funkcija jednakosti i hesh funkcija
+============================================================
+
+Napraviti program koji proverava da li su putnici na spisku
+zabrana letenja.
+
+Potrebno je napraviti klasu `Putnik` koja je predstavljena
+sa imenom, prezimenom i godinom rodjenja.
+
+Iz fajla "noflightlist.txt" treba ucitati odgovarajuce
+putnike koji ne smeju da lete.
+
+Podatke smestiti u instancu klase "HashSet".
+
+
+Pojedinacna provera
+--------------------
+
+Omoguciti da se unese novi putnik sa svojim podacima i
+ispisati da li on sme da leti ili ne.
+
+
+Masovna provera
+----------------
+
+Ucitati putnike iz fajla "flight.txt" i ispisati one
+koji ne smeju da lete na ekranu.
+
+
+Funkcija jednakosti
+===================
+
+Potrebno je u okviru klase implementirati metod:
+
+    public boolean equals(Object o) { ... }
+
+Dobijeni objekat treba proveriti da li je dobrog tipa i onda
+ga pretvoriti u odgovajuci tip radi dalje provere.
+
+
+Hesh funkcija
+=============
+
+Radi tacnog funkcionisanja skupa (HashSet) mora postojati
+i adekvatna hesh funkcija u klasi:
+
+    public int hashCode() {...}
+
+Ona mora da vraca uvek isti broj za isti sadrzaj objekta.
+
+Takodje se uvek ocekuje da za dva objekta za koje `equals`
+vraca da su isti i hesh funkcija vraca iste vrednosti.
+Obrnutno ne vazi u opstem slucaju, tj objekti sa istom
+hesh vrednoscu ne moraju biti isti.
+
+Radi efikasnosti funkcionisanja skupa, potrebno je da ova
+funkcija vraca sto razlicitije vrednosti za razlicite objekte,
+u idealnom slucaju su to uvek razlicite vrednosti za manje
+od 2^32 razlicitih objekata.
+
+Tehnicki je funkcija koja uvek vraca isti broj za sve
+objekte ispravna, ali je veoma neefikasna za koriscenje
+objekata u skupu.
+
+
+Dodatak za vezbu
+=================
+
+Modifikovati program tako da ne uzima u obzir godinu
+rodjenja pri pretragama, nego samo ime i prezime i da
+ispisuje upozorenja i za putnike koji samo imaju isto ime i
+prezime kao neko sa spiska.

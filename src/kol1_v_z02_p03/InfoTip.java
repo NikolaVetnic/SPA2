@@ -1,4 +1,4 @@
-package pv03_fudbaleri;
+package kol1_v_z02_p03;
 
 import org.svetovid.io.SvetovidReader;
 

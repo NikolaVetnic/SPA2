@@ -1,4 +1,4 @@
-package pv03_fudbaleri;
+package pv03_fudbaleri_p01;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package pv03_flight;
+package pv03_flight_p01;
 
 import java.util.Objects;
 
@@ -61,7 +61,7 @@ public class Putnik extends InfoTip {
 	
 	@Override
 	public int hashCode() {
-		
+
 		int out = 11;
 		
 		if (ime != null) 
@@ -86,6 +86,6 @@ public class Putnik extends InfoTip {
 	}
 	
 	public static void main(String[] args) {
-		new TestHash(Putnik.novi(), "res/", "p");
+		new TestHash(Putnik.novi(), "res/", "p").run();
 	}
 }

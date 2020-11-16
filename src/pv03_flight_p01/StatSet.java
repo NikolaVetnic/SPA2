@@ -1,4 +1,4 @@
-package pv03_flight;
+package pv03_flight_p01;
 
 import java.util.AbstractSet;
 import java.util.Collection;

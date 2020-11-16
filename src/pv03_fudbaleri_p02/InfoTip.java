@@ -1,4 +1,4 @@
-package pv03_flight;
+package pv03_fudbaleri_p02;
 
 import org.svetovid.io.SvetovidReader;
 

@@ -1,4 +1,4 @@
-package pv03_fudbaleri;
+package pv03_fudbaleri_p02;
 
 import java.util.AbstractSet;
 import java.util.Collection;

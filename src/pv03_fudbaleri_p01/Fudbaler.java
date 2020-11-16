@@ -1,10 +1,15 @@
-package pv03_fudbaleri;
+package pv03_fudbaleri_p01;
 
 import java.util.Objects;
 
 import org.svetovid.io.SvetovidReader;
 
 public class Fudbaler extends InfoTip {
+	
+	/**
+	 * Nasledjivanje InfoTip klase se ne trazi u ovom zadatku, nije ja-
+	 * sno zasto sam to tako uradio.
+	 */
 
 	private String ime, poz;
 	private int god;
@@ -88,6 +93,6 @@ public class Fudbaler extends InfoTip {
 	}
 
 	public static void main(String[] args) {
-		new TestHash(Fudbaler.novi(), "res/", "p");
+		new TestHash(Fudbaler.novi(), "res/", "f").run();
 	}
 }

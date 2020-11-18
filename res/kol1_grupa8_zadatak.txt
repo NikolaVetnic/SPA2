@@ -1,0 +1,117 @@
+                  zadatak - sortiranje
+************************************************************
+
+Napisati program `Sortiranje` koji ucitava podatke iz fajla,
+sortira ih i ispisuje u drugi fajl. Detalji su dati po
+delovima u daljem tekstu.
+
+Sadrzaj:
+-------
+Opis podataka i format fajla
+ZADATAK
+-kreiranje klase
+-ucitavanje i snimanje
+-komparatori
+-sortiranje
+-stil
+
+
+Opis podataka i format fajla
+------------------------------------------------------------
+
+U prvom redu se nalazi broj N koji odredjuje koliko ima
+elemenata u fajlu. Potom slede opisi elemenata.
+
+Dati su ime, ekstenzija i velicina fajla, svaki u svom redu,
+a pojedini elementi su razdvojeni praznim redom. Ime i
+ekstenzija su stringovi. Ime je duzine do 8 karaktera, a
+ekstenzija do 3. Velicina je prirodan broj.
+
+Za testiranje je dato nekoliko fajlova sa razlicitim
+brojem ulaznih vrednosti.
+
+
+ZADATAK:
+============================================================
+
+Kreiranje klase (2 poena)
+------------------------------------------------------------
+
+Napraviti klasu koja predstavlja opisani tip podataka koji
+se ucitavaju iz fajla.
+
+Obratiti paznju na definicije polja i njihov pristup i
+promenu izvan klase.
+
+
+Ucitavanje i snimanje podataka (5 poena)
+------------------------------------------------------------
+
+Ucitati podatke iz fajla cije ime navodi korisnik. Ako fajl
+ne postoji odustati od daljeg rada. Fajl je organizovan u
+skladu sa gore opisanim formatom.
+
+Za potrebe zadatka, pretpostaviti da je (ukoliko postoji)
+fajl ispravan u skladu sa definicijama gore.
+
+Ispisati u fajl koji precizira korisnik (drugim upitom)
+sortirani niz, u formatu kao sto je opisan u odgovarajucem
+delu ovog teksta, odnosno tako da bi se mogao koristiti kao
+ulaz u programu.
+
+
+Komparatori (10 poena)
+------------------------------------------------------------
+
+Klasu koja predstavlja tip podataka koji se cuva u nizu
+definisati tako da implementira `Comparable` interfejs, te
+da se podaci "prirodno" (koriscenjem `compareTo` metoda)
+sortiraju na sledeci nacin:
+
+- leksikografski po ekstenziji fajla.
+
+Ponuditi korisniku da unosom broja odabere kako ce niz biti
+sortiran. Treba ponuditi cetiri opcije koje se biraju unosom
+broja 1, 2, 3 ili 4. Ako korisnik unese nesto drugo
+prijaviti gresku i odustati od daljeg rada.
+
+Opcija 1 je sortiranje prirodnim uredjenjem.
+
+Dodatne opcije za sortiranje realizovati kreiranjem
+komparatora (klasa koje implementiraju interfejs
+`Comparator` iz paketa `java.util`).
+
+Napraviti komparatore za sledeca uredjenja:
+
+- po imenu (opadajuce) i po drugom kriterijumu - velicini fajla. 
+Odnosno elemente sa istim imenom treba sortirati po velicini.
+
+- leksikografski po ekstenzijama fajla, od poslednjeg do prvog,
+ potom po imenu (opadajuce), i po velicini (rastuce).
+
+- po duzini imena rastuce, potom leksikografski po extenzijama
+fajla rastuce.
+  ***(obavezno koristi princip kompozitnog komparatora)
+
+
+Sortiranje (2 poena)
+------------------------------------------------------------
+
+Napisati metod koji sortira prosledjeni niz.
+
+Koristiti jednu od elementarnih metoda sortiranja. 
+
+Pri odabiru uzeti u obzir predpostavku da je na ciljnoj
+masini jeftin procesor i da ce poredjenja biti relativno
+spora, narocito u odnosu sa premestanjima elemenata u
+memoriji - odnosno da se zbog efikasnosti zeli imati sto
+manji broj poredjenja elemenata.
+
+
+Stil programiranja (1 poen)
+------------------------------------------------------------
+
+Pri pisanju programa obratiti paznju na stil, sto ukljucuje
+organizaciju koda u klase i metode, vidljivost polja u
+klasama, uredno formatiranje koda, logicna imena klasa,
+metoda i polja u skladu sa standardima jezika Java.

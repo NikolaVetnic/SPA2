@@ -31,6 +31,9 @@ public class Gadjanje extends InfoTip {
 	@Override
 	public int hashCode() {
 		
+//		if (rezultati == null)
+//			return 0;
+		
 		int out = rezultati.length;
 		for (int r : rezultati) out = (out * 11) + r;
 		

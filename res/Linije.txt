@@ -1,0 +1,100 @@
+Banja Luka
+Novi Sad
+2500.00
+
+Banja Luka
+Beograd
+2500.00
+
+
+Beograd
+Zrenjanin
+650.00
+
+Beograd
+Novi Sad
+490.00
+
+Beograd
+Novi Sad
+740.00
+
+Beograd
+Novi Sad
+890.00
+
+Beograd
+Subotica
+1400.00
+
+
+Zrenjanin
+Novi Sad
+350.00
+
+Zrenjanin
+Beograd
+650.00
+
+Zrenjanin
+Beograd
+150.00
+
+Zrenjanin
+Kikinda
+350.00
+
+
+Kikinda
+Zrenjanin
+630.00
+
+Kikinda
+Novi Sad
+900.00
+
+
+Novi Sad
+Beograd
+460.00
+
+Novi Sad
+Beograd
+570.00
+
+Novi Sad
+Beograd
+700.00
+
+Novi Sad
+Beograd
+860.00
+
+Novi Sad
+Zrenjanin
+360.00
+
+Novi Sad
+Zrenjanin
+540.00
+
+Novi Sad
+Kikinda
+930.00
+
+Novi Sad
+Subotica
+840.00
+
+Novi Sad
+Banja Luka
+2230.00
+
+
+Subotica
+Novi Sad
+850.00
+
+Subotica
+Beograd
+1250.00

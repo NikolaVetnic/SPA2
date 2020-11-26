@@ -2,25 +2,20 @@
 Rešeni zadaci sa vežbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 
 ## Predavanja
-<ul>
-<li>p01_bruteforce - demonstracija Brute Force sortiranja sa prirodnim uredjenjem i komparatorom</li>
-<li>p01_comparable</li>
-<li>p01_comparator</li>
-<li>p01_elementary_sorts - Bogosort, Brute Force, Bubble, Comb, Insertion, Selection, Shell</li>
-</ul>
+- p01_bruteforce - demonstracija Brute Force sortiranja sa prirodnim uredjenjem i komparatorom
+- p01_comparable
+- p01_comparator
+- p01_elementary_sorts - Bogosort, Brute Force, Bubble, Comb, Insertion, Selection, Shell
 
 ## Teorijske vezbe
-<ul>
-<li>tv01_automobil - kostur klase koja demonstrira osnovne koncepte obradjivane na predmetu</li>
-<li>tv03_recnik - implementacija dvojezicnog recnika fraza</li>
-</ul>
+- tv01_automobil - kostur klase koja demonstrira osnovne koncepte obradjivane na predmetu
+- tv03_recnik - implementacija dvojezicnog recnika fraza
 
 ## Prakticne vezbe
-<ul>
-<li>pv01_knjige - demonstracioni zadatak sa prvih prakticnih vezbi</li>
-<li>pv01_studenti - domaci zadatak sa prvih prakticnih vezbi</li>
-<li>pv02_knjige - demonstracioni zadatak sa drugih prakticnih vezbi</li>
-<li>pv02_sort - domaci zadatak sa drugih prakticnih vezbi</li>
-<li>pv03_flight - demonstracioni zadatak sa trecih prakticnih vezbi</li>
-<li>pv03_fudbaleri - domaci zadatak sa trecih prakticnih vezbi</li>
-</ul>
+- pv01_knjige - demonstracioni zadatak sa prvih prakticnih vezbi
+- pv01_studenti - domaci zadatak sa prvih prakticnih vezbi
+- pv02_knjige - demonstracioni zadatak sa drugih prakticnih vezbi
+- pv02_sort - domaci zadatak sa drugih prakticnih vezbi
+- pv03_flight - demonstracioni zadatak sa trecih prakticnih vezbi
+- pv03_fudbaleri - domaci zadatak sa trecih prakticnih vezbi
+- pv05_lavirint - domaci zadatak sa petih prakticnih vezbi, [demo](https://youtu.be/B96ttqox3Bc)

@@ -61,7 +61,9 @@ public class Labyrinth {
 	public void print() {
 		
 		System.out.printf("%d %d\n", size.yInt(), size.xInt());
-		
+
+        System.out.println("Labyrinth layout: ");
+        
 		for (int i = 0; i < (int) size.xInt(); i++) {
 			
 			for (int j = 0; j < size.yInt(); j++)
@@ -115,7 +117,7 @@ public class Labyrinth {
 	
 	private boolean pathExists(int x, int y, List<String> pathTiles, boolean hole, int currObstacle, int obstaclesJumped){
 
-        if (x < 0 || x >= size.xInt() || y < 0 || y >= size.yInt())
+        if (0 > x || size.xInt() <= x || 0 > y || size.yInt() <= y)
             return false;
 
         if (tiles[x][y] == WALL)

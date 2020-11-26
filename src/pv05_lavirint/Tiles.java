@@ -10,9 +10,12 @@ import mars.geometry.Vector;
 
 public class Tiles implements Drawing {
 	
+	
 	public static final Vector SIZE = Vector.xy(70);
 	
+	
 	private static final Map<String, Color> tileColors;
+	
 	
 	static {
 		tileColors = new HashMap<>();
@@ -22,6 +25,7 @@ public class Tiles implements Drawing {
 		tileColors.put("Goal", Color.hsb(240, 0.65, 0.95));
 		tileColors.put("Obst", Color.hsb(  0, 0.65, 0.25));
 	}
+	
 	
 	public static void byCode(View view, Vector p, int code, boolean labels) {
 		

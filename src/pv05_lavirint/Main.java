@@ -13,6 +13,7 @@ import mars.geometry.Vector;
 
 public class Main implements Drawing {
 	
+	
 	@GadgetInteger(min = 0, max = 100)
 	int move = 0;
 

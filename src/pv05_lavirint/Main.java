@@ -7,12 +7,20 @@ import mars.drawingx.application.DrawingApplication;
 import mars.drawingx.drawing.Drawing;
 import mars.drawingx.drawing.DrawingUtils;
 import mars.drawingx.drawing.View;
+import mars.drawingx.gadgets.annotations.GadgetAnimation;
 import mars.drawingx.gadgets.annotations.GadgetBoolean;
 import mars.drawingx.gadgets.annotations.GadgetInteger;
 import mars.geometry.Vector;
 
 public class Main implements Drawing {
 	
+	
+	private static final double EPS = 1e-9;
+	private static final int TIME_STEP = 1;
+	
+	
+	@GadgetAnimation(speed = 1.0)
+	double time = 0;
 	
 	@GadgetInteger(min = 0, max = 100)
 	int move = 0;
@@ -77,10 +85,20 @@ public class Main implements Drawing {
 						showLabels
 						);
 		
-		if (path != null) 
-			Tiles.drawPiece(view, Vector.xy(
-					path[move >= path.length ? path.length - 1 : move][0], 
-					path[move >= path.length ? path.length - 1 : move][1]).sub(adj).mul(Tiles.SIZE));
+		if (path != null) {
+			
+			if (time <= EPS) { 
+				// kretanje pomocu moves gadgeta
+				Tiles.drawPiece(view, Vector.xy(
+						path[move >= path.length ? path.length - 1 : move][0], 
+						path[move >= path.length ? path.length - 1 : move][1]).sub(adj).mul(Tiles.SIZE));
+			} else {
+				// automatsko kretanje
+				Tiles.drawPiece(view, Vector.xy(
+						path[(int) (time / TIME_STEP) >= path.length ? path.length - 1 : (int) (time / TIME_STEP) ][0], 
+						path[(int) (time / TIME_STEP) >= path.length ? path.length - 1 : (int) (time / TIME_STEP) ][1]).sub(adj).mul(Tiles.SIZE));
+			}
+		}
 	}
 	
 	

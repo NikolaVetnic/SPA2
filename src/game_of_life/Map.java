@@ -34,6 +34,7 @@ public class Map {
 		
 		BufferedReader br = new BufferedReader(new FileReader(file));
 
+		@SuppressWarnings("unused")
 		String line = null;
 		int numLines = 0;
 		

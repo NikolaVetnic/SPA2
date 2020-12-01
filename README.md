@@ -19,3 +19,6 @@ Rešeni zadaci sa vežbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 - pv03_flight - demonstracioni zadatak sa trecih prakticnih vezbi
 - pv03_fudbaleri - domaci zadatak sa trecih prakticnih vezbi
 - pv05_lavirint - domaci zadatak sa petih prakticnih vezbi, [demo](https://youtu.be/B96ttqox3Bc)
+
+## Ostalo
+- The Game of Life - implementacija osnovnog celijskog automata, [demo](https://www.youtube.com/watch?v=Fa3DYMfTp9E)

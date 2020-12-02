@@ -21,4 +21,4 @@ Rešeni zadaci sa vežbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 - pv05_lavirint - domaci zadatak sa petih prakticnih vezbi, [demo](https://youtu.be/B96ttqox3Bc)
 
 ## Ostalo
-- The Game of Life - implementacija osnovnog celijskog automata, [demo](https://www.youtube.com/watch?v=Fa3DYMfTp9E)
+- The Game of Life - implementacija osnovnog celijskog automata, [demo #1](https://www.youtube.com/watch?v=Fa3DYMfTp9E), [demo #2 - Gosper glider gun](https://www.youtube.com/watch?v=tZQ1EJWGx3U)

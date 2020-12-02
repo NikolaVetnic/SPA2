@@ -38,10 +38,10 @@ public class Main implements Drawing {
 	void setup() throws IOException {
 		
 		// load map from file
-//		record = new Map("map_test").recordEpochs(50);
+		record = new Map("map_glidergun").recordEpochs(numEpochs);
 		
 		// random generated map
-		record = new Map(size, size, seed, prob).recordEpochs(numEpochs);
+//		record = new Map(size, size, seed, prob).recordEpochs(numEpochs);
 	}
 	
 	

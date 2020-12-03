@@ -1,0 +1,56 @@
+Zadatak - pretrazivanje sa vracanjem - lavirint
+============================================================
+
+Napisati program koji ucitava lavirint iz fajla i nalazi put
+ili puteve sa odredjenim osobinama.
+
+
+Format fajla
+------------------------------------------------------------
+
+Lavirint je u fajlu predstavljen na sledeci nacin:
+
+U prvom redu se nalaze dva broja S i V (1<= S, V <=10), koji
+predstavljaju sirinu i visinu lavirinta. U sledecih V redova
+se nalaze po S celih brojeva koji predstavljaju lavirint.
+Brojevi imaju sledece znacenje:
+
+ 0 - prazno polje
+-1 - zid, na ovo polje se ne moze stupiti
+-5 - izlaz iz lavirinta
+
+Sa jednog polja se moze preci na drugo, ukoliko imaju
+zajednicku stranicu, odnosno mozemo preci na polje levo,
+desno, gore ili dole.
+
+Pri ucitavanju pretpostaviti da ukoliko fajl postoji da su
+podaci u njemu ispravno zadati.
+
+
+Zadatak
+------------------------------------------------------------
+
+- Napisati program tako da proverava da li postoji put od
+pocetnog polja do izlaza iz lavirinta. Pocetno polje je na
+koordinatama 1,1, odnosno u gornjem levom uglu.
+
+- Program prosiriti tako da na ekran ispisuje trazeni put
+(ako postoji).
+
+- Modifikovati program tako da vraca najkraci put do izlaza.
+
+- Razmotriti sledecu modifikaciju problema:
+
+U drevnim lavirintima se nalaze zlatnici razasuti po
+poljima. Ovi lavirinti su veoma opasni, pa ih nije
+jednostavno pokupiti, vec se to moze raditi samo pomocu
+specijalnih robota. Na srecu pronadjene su mape koje
+precizno pokazuju kako lavirinti izgledaju, gde su im izlazi
+i koliko zlatnika se moze pokupiti na kom polju. Sada treba
+naci put kroz lavirint tako da se pokupi sto vise zlatnika,
+a da se pri tome ne nagazi na isto polje dva puta.
+
+Pri ucitavanju lavirinta, bilo koji pozitivan broj
+predstavlja broj zlatnika na tom polju. Program treba da
+vraca optimalni put do izlaza, odnosno takav da se pokupi
+sto vise zlatnika na putu.

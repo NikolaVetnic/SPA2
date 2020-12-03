@@ -1,0 +1,11 @@
+Data je mogucnost vizuelnog prikazivanja resavanja
+lavirinata opcijama 3 i 4.
+
+Kada se ucita lavirint otvorice se prozor koji ga prikazuje.
+Ako se u konzoli odabere opcija 3 ili 4 pocece prikaz koraka
+nalazenja resenja. Moguce je kontrolisati vreme izmedju
+pojedinacnih korakak, a mogu se i rucno preskakati klikom na
+odgovarajuce dugme.
+
+Za pokretanje ove verzije programa neophodno je na racunaru
+imati instaliranu Javu 8 ili noviju.

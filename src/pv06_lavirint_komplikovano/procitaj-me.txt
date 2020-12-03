@@ -1,0 +1,19 @@
+Pri koristicenju programa moguce je koristiti sledece
+ulazne fajlove:
+
+lavirint.txt
+  sadrzi lavirint koji se moze koristiti za proveru da li
+  postoji put, ispis puta i ispis najkraceg puta.
+
+lavirint-blokiran.txt
+  sadrzi lavirint u kojem ne postoji put.
+
+lavirint-prazan.txt
+  sadrzi prazan lavirint bez zidova.
+
+lavirint1.txt, lavirint2.txt, lavirint3.txt i lavirint4.txt
+  sadrze razlicite resive lavirinte.
+
+blago1.txt, blago2.txt i blago3.txt
+  sadrze lavirinte sa blagom za testiranje najvrednijeg
+  puta.

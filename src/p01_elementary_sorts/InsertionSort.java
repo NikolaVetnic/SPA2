@@ -46,19 +46,19 @@ public class InsertionSort {
 	}
 	
 	/**
-	 * U slučaju kada su svi elementi sortiranog dela niza veći od prv-
-	 * og nesortiranog elementa while petlja će se završiti kada j pos-
-	 * tane -1, što može predstavljati problem u jezicima koji ne podr-
-	 * žavaju lenjo izračunavanje logičkih izraza; ono što se dešava z-
-	 * apravo je da imamo sledeću proveru:
+	 * U slucaju kada su svi elementi sortiranog dela niza veci od prv-
+	 * og nesortiranog elementa while petlja ce se zavrsiti kada j pos-
+	 * tane -1, sto moze predstavljati problem u jezicima koji ne podr-
+	 * zavaju lenjo izracunavanje logickih izraza; ono sto se desava z-
+	 * apravo je da imamo sledecu proveru:
 	 * 		arr[-1].compareTo...
 	 * 
 	 * Ne postoji element niza sa indeksom -1.
 	 * 
-	 * POJAŠNJENJE: ukoliko nije podržano lenjo izračunavanje OBA uslo-
+	 * POJASNJENJE: ukoliko nije podrzano lenjo izracunavanje OBA uslo-
 	 * va konjukcije (j >= 0 && arr[j].compareTo(current) > 0) bi se p-
-	 * roveravala čak i ako je već prvi false, što dovodi do greške bu-
-	 * dući da ne postoji element sa indeksom -1.
+	 * roveravala cak i ako je vec prvi false, sto dovodi do greske bu-
+	 * duci da ne postoji element sa indeksom -1.
 	 */
 	 
 	@SuppressWarnings({ "rawtypes", "unchecked" })

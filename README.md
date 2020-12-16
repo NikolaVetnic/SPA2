@@ -1,5 +1,5 @@
 # SPA2
-Rešeni zadaci sa vežbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
+Reseni zadaci sa vezbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 
 ## Predavanja
 - p01_bruteforce - demonstracija Brute Force sortiranja sa prirodnim uredjenjem i komparatorom
@@ -18,7 +18,12 @@ Rešeni zadaci sa vežbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 - pv02_sort - domaci zadatak sa drugih prakticnih vezbi
 - pv03_flight - demonstracioni zadatak sa trecih prakticnih vezbi
 - pv03_fudbaleri - domaci zadatak sa trecih prakticnih vezbi
-- pv05_lavirint - domaci zadatak sa petih prakticnih vezbi, [demo](https://youtu.be/B96ttqox3Bc)
+- pv04_automobili - domaci zadatak sa cetvrtih prakticnih vezbi
+- pv05_lavirint - domaci zadatak sa petih prakticnih vezbi, [demo](https://www.youtube.com/watch?v=B96ttqox3Bc)
+- pv06_lavirint - domaci zadatak sa sestih prakticnih vezbi
+- pv06_lavirint_komplikovano - vezba na osnovu implementacije backtracking-a za prolazak kroz lavirint date na vezbama
+- pv06_knossos - domaci zadatak sa sestih prakticnih vezbi, [demo](https://www.youtube.com/watch?v=WntFS4tqTX4)
+- pv07_stabloosoba - domaci zadatak sa sedmih prakticnih vezbi
 
 ## Ostalo
 - The Game of Life - implementacija osnovnog celijskog automata, [demo #1](https://www.youtube.com/watch?v=Fa3DYMfTp9E), [demo #2 - Gosper glider gun](https://www.youtube.com/watch?v=tZQ1EJWGx3U)

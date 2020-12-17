@@ -21,42 +21,43 @@ public class StabloOsobaProgram {
 
 		// Ispisemo ucitano stablo
 		io.print(Svetovid.out, stablo);
-
-		System.out.println(stablo.jePrazno()? "Da":"Ne");
-
-		Osoba osobaX = new Osoba("Raja", "Rajkovic", 31985);
-		boolean postoji = stablo.postojiElement(stablo.koren, osobaX);
-		System.out.println(postoji?"Da":"Ne");
-
-		stablo.stampajInorder(stablo.koren);
 		System.out.println();
-		stablo.stampajPreorder(stablo.koren);
-		System.out.println();
-		stablo.stampajPostorder(stablo.koren);
 
-		stablo.stampajListove(stablo.koren);
-
-		Osoba osobaY = new Osoba("Raja", "Rajkovic",31985);
-		StabloOsoba novoStablo = stablo.pronadjiOsobu(osobaY);
-		io.print(Svetovid.out, novoStablo);
-
-		List<Osoba> osobe = stablo.stampajSveIspod(osobaX);
-		for (Osoba o: osobe)
-			System.out.println(o);
-		novoStablo.ubaci(osobaY, new Osoba("Sasa", "Pesic", 445234),true);
-		io.print(Svetovid.out, novoStablo);
-
-		System.out.println(stablo.roditeljOd(osobaX));
-
-		Comparator<Osoba> komparatorPoPlati = new Comparator<Osoba>() {
-			@Override
-			public int compare(Osoba o1, Osoba o2) {
-				return o1.getPlata() - o2.getPlata();
-			}
-		};
-
-		Osoba optimalna = stablo.optimalnaOsoba(komparatorPoPlati, stablo.koren);
-		System.out.println(optimalna);
+//		System.out.println(stablo.jePrazno()? "Da":"Ne");
+//
+//		Osoba osobaX = new Osoba("Raja", "Rajkovic", 31985);
+//		boolean postoji = stablo.postojiElement(stablo.koren, osobaX);
+//		System.out.println(postoji?"Da":"Ne");
+//
+//		stablo.stampajInorder(stablo.koren);
+//		System.out.println();
+//		stablo.stampajPreorder(stablo.koren);
+//		System.out.println();
+//		stablo.stampajPostorder(stablo.koren);
+//
+//		stablo.stampajListove(stablo.koren);
+//
+//		Osoba osobaY = new Osoba("Raja", "Rajkovic",31985);
+//		StabloOsoba novoStablo = stablo.pronadjiOsobu(osobaY);
+//		io.print(Svetovid.out, novoStablo);
+//
+//		List<Osoba> osobe = stablo.stampajSveIspod(osobaX);
+//		for (Osoba o: osobe)
+//			System.out.println(o);
+//		novoStablo.ubaci(osobaY, new Osoba("Sasa", "Pesic", 445234),true);
+//		io.print(Svetovid.out, novoStablo);
+//
+//		System.out.println(stablo.roditeljOd(osobaX));
+//
+//		Comparator<Osoba> komparatorPoPlati = new Comparator<Osoba>() {
+//			@Override
+//			public int compare(Osoba o1, Osoba o2) {
+//				return o1.getPlata() - o2.getPlata();
+//			}
+//		};
+//
+//		Osoba optimalna = stablo.optimalnaOsoba(komparatorPoPlati, stablo.koren);
+//		System.out.println(optimalna);
 		
 	    //////////////////
 	    //	ZADATAK #1  //
@@ -64,6 +65,7 @@ public class StabloOsobaProgram {
 		
 		StabloOsoba k = stablo.kopija();
 		io.print(Svetovid.out, k);
+		System.out.println();
 		
 	    //////////////////
 	    //	ZADATAK #2  //
@@ -71,5 +73,6 @@ public class StabloOsobaProgram {
 		
 		StabloOsoba o = stablo.obrnuto();
 		io.print(Svetovid.out, o);
+		System.out.println();
 	}
 }

@@ -5,9 +5,12 @@ import java.util.NoSuchElementException;
 
 public class HeapPQ<T extends Comparable<T>> implements PriorityQueue<T> {
 	
+	
 	private static final int DEFAULT_INITIAL_CAPACITY = 100;
 	
+	
 	private ArrayList<T> queue;
+	
 	
 	public HeapPQ(int initialCapacity) {
 		if (initialCapacity <= 0)
@@ -19,12 +22,22 @@ public class HeapPQ<T extends Comparable<T>> implements PriorityQueue<T> {
 	public HeapPQ() {
 		this(DEFAULT_INITIAL_CAPACITY);
 	}
+	
 
+	/*
+	 * Dodaj novi element na kraj (prosirivog) niza i nakon toga popra-
+	 * vi niz tako da ponovo ima hip strukturu: 1) ako je dodati eleme-
+	 * nt veci od oca razmenih ih, i 2) ponavljaj prethodni korak dokl-
+	 * e god je zadovoljen uslov razmene ili dok ne stignes do korensk-
+	 * og cvora.
+	 */
+	
 	@Override
 	public void insert(T element) {
 		queue.add(element);
 		restoreHeapProperty(queue.size() - 1);
 	}
+	
 
 	private void restoreHeapProperty(int sonIndex) {
 		boolean heapRestored = false;
@@ -47,6 +60,7 @@ public class HeapPQ<T extends Comparable<T>> implements PriorityQueue<T> {
 			}
 		}
 	}
+	
 
 	@Override
 	public T max() {
@@ -55,6 +69,15 @@ public class HeapPQ<T extends Comparable<T>> implements PriorityQueue<T> {
 		
 		return queue.get(0);
 	}
+	
+	
+	/*
+	 * Poslednji element niza stavi na pocetak niza, povrati hip struk-
+	 * turu, ovoga puta od korena ka kraju niza: 1) ukoliko je otac ma-
+	 * nji od veceg sina razmeni ih, 2) ponavljaj prethodni korak dokle
+	 * god otac ima bar jednog sina i dokle god je uslov razmene zadov-
+	 * oljen.
+	 */ 
 
 	@Override
 	public T delMax() {
@@ -69,6 +92,7 @@ public class HeapPQ<T extends Comparable<T>> implements PriorityQueue<T> {
 		
 		return res;
 	}
+	
 
 	private void restoreHeapProperty() {
 		boolean heapRestored = false;
@@ -96,6 +120,7 @@ public class HeapPQ<T extends Comparable<T>> implements PriorityQueue<T> {
 			}
 		}
 	}
+	
 
 	private int getMaxSon(int parentIndex) {
 		int son1Index = 2 * parentIndex + 1;
@@ -118,16 +143,19 @@ public class HeapPQ<T extends Comparable<T>> implements PriorityQueue<T> {
 		
 		return maxSonIndex;
 	}
+	
 
 	@Override
 	public boolean isEmpty() {
 		return queue.size() == 0;
 	}
+	
 
 	@Override
 	public int size() {
 		return queue.size();
 	}
+	
 	
 	private void swap(int indexa, int indexb) {
 		T a = queue.get(indexa);

@@ -303,4 +303,52 @@ class StabloOsoba {
     		obrnuto(obrnutoTek.levo, originTek.desno);
     	}
     }
+    
+    
+	//////////////////
+	//	ZADATAK #3  //
+	//////////////////
+    
+    
+    public double prosecnaPlata() {
+    	
+    	PosetiProsek posetilac = new PosetiProsek();
+    	prodjiKrozStablo(koren, posetilac);
+    	
+    	System.out.println("Prosecna plata		: " + posetilac.prosecnaPlata());
+    	System.out.println("Najveca plata		: " + posetilac.osobaSaNajvecomPlatom());
+    	System.out.println("Druga najveca plata	: " + posetilac.osobaSaDrugomPoReduPlatom());
+    	
+    	return posetilac.prosecnaPlata();
+    }
+    
+    
+    public void drugaPoReduSaNajvecomPlatom() {
+    	
+    	PosetiProsek posetilac = new PosetiProsek();
+    	prodjiKrozStablo(koren, posetilac);
+    	
+    	System.out.println("Druga po redu sa najvecom platom: " + posetilac.osobaSaDrugomPoReduPlatom());
+    }
+    
+    // Bezvezna metoda za isprobavanje fore sa interfejsima.
+    public double sumaPlata() {
+    	
+    	PosetiSuma posetilac = new PosetiSuma();
+    	prodjiKrozStablo(koren, posetilac);
+    	
+    	System.out.println("Suma svih plata: " + posetilac.sumaPlata());
+    	
+    	return posetilac.sumaPlata();
+    }
+    
+    
+    private void prodjiKrozStablo(Cvor cvor, IPoseti posetliac) {
+    	
+    	if (cvor == null) return;
+    	
+    	posetliac.posetiCvor(cvor);
+    	prodjiKrozStablo(cvor.desno, posetliac);
+    	prodjiKrozStablo(cvor.levo,  posetliac);
+    }
 }

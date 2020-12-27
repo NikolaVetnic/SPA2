@@ -1,4 +1,4 @@
-package p01_elementary_sorts;
+package p03_advanced_sorts;
 
 public class InsertionSort {
 	

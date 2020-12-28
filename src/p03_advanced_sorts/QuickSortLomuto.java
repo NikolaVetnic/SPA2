@@ -12,6 +12,7 @@ public class QuickSortLomuto {
 	}
 
 	private static <T extends Comparable<T>> void sort(T[] arr, int l, int h) {
+		
 		if (l < h) {
 			int j = partition(arr, l, h);
 			sort(arr, l, j - 1);
@@ -20,6 +21,7 @@ public class QuickSortLomuto {
 	}
 
 	private static <T extends Comparable<T>> int partition(T[] arr, int l, int h) {
+		
 		T pivot = arr[h];
 		int ltePivot = l - 1;
 		

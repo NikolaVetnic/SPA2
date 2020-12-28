@@ -19,6 +19,7 @@ public class QuickSortHoare {
 	}
 
 	private static <T extends Comparable<T>> void sort(T[] arr, int l, int h) {
+		
 		if (l < h) {
 			
 			/*
@@ -35,6 +36,7 @@ public class QuickSortHoare {
 	}
 
 	private static <T extends Comparable<T>> int partition(T[] arr, int l, int h) {
+		
 		T pivot = arr[l];
 		int i = l + 1;
 		int j = h;

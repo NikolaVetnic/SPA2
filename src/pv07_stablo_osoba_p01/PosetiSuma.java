@@ -1,6 +1,6 @@
-package pv07_stabloosoba_p01;
+package pv07_stablo_osoba_p01;
 
-import pv07_stabloosoba_p01.StabloOsoba.Cvor;
+import pv07_stablo_osoba_p01.StabloOsoba.Cvor;
 
 public class PosetiSuma implements IPoseti {
 
@@ -11,7 +11,6 @@ public class PosetiSuma implements IPoseti {
 	}
 	
 	public void posetiCvor(Cvor cvor) {
-		
 		suma += cvor.osoba.getPlata();
 	}
 }

@@ -1,6 +1,6 @@
-package pv07_stabloosoba_p01;
+package pv07_stablo_osoba_p01;
 
-import pv07_stabloosoba_p01.StabloOsoba.Cvor;
+import pv07_stablo_osoba_p01.StabloOsoba.Cvor;
 
 public class PosetiProsek implements IPoseti {
 

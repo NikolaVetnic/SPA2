@@ -1,4 +1,4 @@
-package pv07_stabloosoba_p01;
+package pv07_stablo_osoba_p01;
 
 import java.util.Objects;
 

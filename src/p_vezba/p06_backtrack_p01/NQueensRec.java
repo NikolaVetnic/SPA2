@@ -1,4 +1,4 @@
-package p06_backtrack;
+package p_vezba.p06_backtrack_p01;
 
 public class NQueensRec {
 
@@ -16,12 +16,12 @@ public class NQueensRec {
 	
 	private void printSolution() {
 		
-		++slCounter;
+		slCounter++;
 		System.out.println("Solution " + slCounter);
 		
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
-				if (j == table[i])
+				if (table[i] == j)
 					System.out.print("X ");
 				else
 					System.out.print("- ");
@@ -33,7 +33,7 @@ public class NQueensRec {
 	
 	
 	public void find() {
-		find(0);
+		find(0); 
 	}
 
 
@@ -44,10 +44,14 @@ public class NQueensRec {
 		} else {
 			for (int j = 0; j < n; j++) {
 				if (availableCell(currentRow, j)) {
+					
+					System.out.println("(currentRow, j) := ( " + currentRow + " , " + j + " )");
+					
 					table[currentRow] = j;
 					find(currentRow + 1);
 				}
 			}
+			System.out.println("Go BACK to ROW " + (currentRow - 1) + "!");
 		}
 	}
 
@@ -62,7 +66,8 @@ public class NQueensRec {
 	}
 	
 	public static void main(String[] args) {
-		NQueens nq = new NQueens(8);
+		
+		NQueensRec nq = new NQueensRec(4);
 		nq.find();
 	}
 }

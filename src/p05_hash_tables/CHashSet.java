@@ -188,7 +188,7 @@ public class CHashSet<T> implements Set<T> {
 		if (pos < 0) return false;
 		
 		status[pos] = Status.DELETED;
-		numElements++;
+		numElements--;
 		
 		return true;
 	}

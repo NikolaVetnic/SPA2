@@ -33,7 +33,7 @@ Reseni zadaci sa vezbi iz Struktura podataka i algoritama 2 na PMFu, Novi Sad.
 - pv07_stabloautomobila - zadatak za vezbu iz stabala sa automobilima
 
 ## Skripta za usmeni deo ispita
-Folder /doc - trenutno je u fazi izrade!
+Folder /doc - trenutno je u fazi izrade.
 
 ## Ostalo
 - The Game of Life - implementacija osnovnog celijskog automata, [demo #1](https://www.youtube.com/watch?v=Fa3DYMfTp9E), [demo #2 - Gosper glider gun](https://www.youtube.com/watch?v=tZQ1EJWGx3U)

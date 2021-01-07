@@ -1,6 +1,6 @@
 package p_vezba.p06_backtrack_p01;
 
-public class KnapsackG4G {
+public class KnapSackG4G {
 
 	private static int max(int a, int b) {
 		return a > b ? a : b;
@@ -20,9 +20,6 @@ public class KnapsackG4G {
 	}
 	
 	public static void main(String[] args) {
-		
-//		int val[] = new int[] { 60, 100, 120 };
-//        int wt[] = new int[] { 10, 20, 30 }; 
 		
 		int val[] = new int[] { 28, 22, 18, 6, 1 }; 
         int wt[] = new int[] { 7, 6, 5, 2, 1 }; 

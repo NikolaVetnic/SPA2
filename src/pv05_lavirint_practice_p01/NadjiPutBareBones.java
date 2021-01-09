@@ -84,7 +84,7 @@ public class NadjiPutBareBones {
 		if (posecenost[x][y] == true)						// obavezan uslov #3
 			return;
 		
-		if (lavirint[x][y] == IZLAZ) {					// obavezan uslov #4
+		if (lavirint[x][y] == IZLAZ) {						// obavezan uslov #4
 			
 			put.dodajPolje(x, y, lavirint[x][y]);
 			nadjeniPutevi.add(put.kopija());

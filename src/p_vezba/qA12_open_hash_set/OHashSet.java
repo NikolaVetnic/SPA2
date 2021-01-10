@@ -70,11 +70,10 @@ public class OHashSet<T> {
 		if (n == null)
 			return false;
 		
-		if (n[0] == table[hashValue]) {
+		if (n[0] == table[hashValue])
 			table[hashValue] = table[hashValue].next;
-		} else {
+		else
 			n[1].next = n[0].next;
-		}
 		
 		return true;
 	}

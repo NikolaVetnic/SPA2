@@ -1,15 +1,15 @@
 package p_vezba.qA02_selection_bubble;
 
-public class IntWrap implements Comparable<IntWrap> {
+public class Element implements Comparable<Element> {
 		
 	int n;
 	
-	public IntWrap(int n) { 
+	public Element(int n) { 
 		this.n = n; 
 	}
 
 	@Override
-	public int compareTo(IntWrap o) { 
+	public int compareTo(Element o) { 
 		return this.n - o.n; 
 	}
 	

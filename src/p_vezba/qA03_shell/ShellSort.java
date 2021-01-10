@@ -2,8 +2,6 @@ package p_vezba.qA03_shell;
 
 import java.util.Random;
 
-import p_vezba.qA01_bruteforce_insertion.IntWrap;
-
 public class ShellSort {
 
 	static int[] gaps = { 4, 2, 1 };
@@ -31,9 +29,9 @@ public class ShellSort {
 	
 	public static void main(String[] args) {
 		
-		IntWrap[] arr = new IntWrap[10];
+		Element[] arr = new Element[10];
 		for (int i = 0; i < 10; i++)
-			System.out.print((arr[i] = new IntWrap(new Random().nextInt(100))) + " ");
+			System.out.print((arr[i] = new Element(new Random().nextInt(100))) + " ");
 		
 		System.out.println();
 		sort(arr);

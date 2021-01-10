@@ -1,141 +1,110 @@
-************************************************************
-         Zadatak - binarna stabla
-************************************************************
+*******************************************************************
+					Zadatak - binarna stabla
+*******************************************************************
 
-Data je klasa StabloOsobaProgram sa glavnim programom koji
-ucitava jedno stablo i poziva neke od operacija nad njim.
-U fajlu StabloOsoba data je klasa `StabloOsoba` koja predstavlja binarno
-stablo osoba. Klasa `Osoba` je takodje data implmentirana.
+Data je klasa StabloOsobaProgram i glavni program koji ucitava jed-
+no stablo i poziva neke od operacija nad njim. Fajl StabloOsoba sa-
+drzi klasu `StabloOsoba` koja predstavlja binarno stablo osoba. Kl-
+asa `Osoba` je takodje data implmentirana.
 
-U okviru klase `StabloOsoba` implementirati operacije navedene u
-nastavku i ilustrovati njihov rad pozivanjem iz glavnog
-programa u `StabloOsobaProgram`. Svaki metod je potrebno
-implementirati kao javan metod klase `StabloOsoba`, a cesto je
-potrebno napravitit i pomocni zasticen staticki metod istog
-imena.
+U okviru klase `StabloOsoba` implementirati operacije navedene u n-
+astavku i ilustrovati njihov rad tako sto ce se pozivati iz glavnog
+programa u `StabloOsobaProgram`. Svaki metod je potrebno implement-
+irati kao javan metod klase `StabloOsoba`, a cesto je potrebno nap-
+ravitit i pomocni zasticen staticki metod istog imena.
 
-Sve promene treba raditi u fajlu StabloOsoba.java.
-Ostali fajlovi su klasa `Osoba` koja
-predstavlja element koji ubacujemo u konkretnom programu,
-kao i pomocne klase koje sluze za ucitavanje stabla iz fajla
-u urednom formatu. Ucitavanje stabla na ovaj nacin nije
-neophodno uciti, a dato je tacno kako treba da se ucita.
+Sve promene treba raditi u fajlu StabloOsoba.java. Ostali dati faj-
+lovi su klasa `Osoba` koja predstavlja element koji ubacujemo u ko-
+nkretnom programu, kao i pomocne klase koje sluze za ucitavanje st-
+abla iz fajla u urednom formatu. Ucitavanje stabla na ovaj nacin n-
+ije neophodno uciti, a dato je tacno kako treba da se ucita.
 
-
-Metodi
+======
+METODI
 ======
 
 public boolean jePrazno()
 -------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-vraca true ako je stablo prazno, false ako nije.
+U klasi StabloOsoba, implementirati metod koji vraca true ako je s-
+tablo prazno, false ako nije.
 
 public boolean postojiElement(Cvor cvor, Osoba element)
-----------------------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-vraca true ako se prosledjeni element nalazi u
-stablu, false inace.
-
-Prilikom pretrage stabla koristiti metod equals().
+-------------------------------------------------------
+U klasi StabloOsoba, implementirati metod koji vraca true ako se pr-
+osledjeni element nalazi u stablu, false inace. Prilikom pretrage s-
+tabla koristiti metod equals().
 
 public void stampajPreorder(Cvor cvor)
-----------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-stampa sve elemente preorder nacinom obilaska.
+--------------------------------------
+U klasi StabloOsoba, implementirati metod koji stampa sve elemente u
+stablu preorder nacinom obilaska.
 
 public void stampajInOrder(Cvor cvor)
-----------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-stampa sve elemente inorder nacinom obilaska.
+-------------------------------------
+U klasi StabloOsoba, implementirati metod koji stampa sve elemente i-
+norder nacinom obilaska.
 
 public void stampajPostOrder(Cvor cvor)
-----------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-stampa sve elemente postorder nacinom obilaska.
+---------------------------------------
+U klasi StabloOsoba, implementirati metod koji stampa sve elemente p-
+ostorder nacinom obilaska.
 
 public void stampajListove(Cvor cvor)
-----------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-stampa sve elemente koji se nalaze u listovima.
-
-List je cvor koji nema ni levog ni desnog potomka.
+-------------------------------------
+U klasi StabloOsoba, implementirati metod koji stampa sve elemente ko-
+ji se nalaze u listovima. List je cvor koji nema ni levog ni desnog p-
+otomka.
 
 private StabloOsoba pronadji(Osoba element)
-------------------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-pronalazi dati element i vraca stablo sa korenom
-u tom elementu.
-
-Ako element ne postoji u stablu, vratiti null.
-
-Ovaj metod koristiti kao pomocni za sledeci.
+-------------------------------------------
+U klasi StabloOsoba implementirati metod koji pronalazi dati element i
+vraca stablo sa korenom u tom elementu. Ako element ne postoji u stab-
+lu, vratiti null. Ovaj metod koristiti kao pomocni za sledeci.
 
 public List<Osoba> stampajSveIspod(Osoba element)
---------------------------------------
-
-U klasi StabloO, implementirati metod koji
-vraca sve elemente koji su direktni ili indirektni
-potomci datog.
-
+-------------------------------------------------
+U klasi Stablo, implementirati metod koji vraca sve elemente koji su d-
+irektni ili indirektni potomci datog.
 
 public boolean ubaci(Osoba roditelj, Osoba potomak, boolean levo)
----------------------------------------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-pronalazi element dat u prvom argumentu (roditelj)
-i kao njegovog poromka ubacuje element dat u drugom
-argumentu (potomak). Ako je treci argument (levo)
-true tada se element ubacuje kao levi potomak, a
-ako je false, kao desni.
-
-Ako se na zeljenom mestu vec nalazi nesto, vratiti false
-i ne ubacivati element, inace vratiti true pri uspesnom
-ubacivanju.
-
+-----------------------------------------------------------------
+U klasi StabloOsoba implementirati metod koji pronalazi element koji je
+dat u prvom argumentu (roditelj) i kao njegovog poromka ubacuje element
+dat u drugom argumentu (potomak). Ako je treci argument (levo) true ta-
+da se element ubacuje kao levi potomak, a ako je false, kao desni. U s-
+lucaju da se na zeljenom mestu vec nalazi nesto, vratiti false i ne ub-
+acivati element, inace vratiti true pri uspesnom ubacivanju.
 
 public Osoba roditeljOd(Osoba potomak)
 --------------------------------------
-
-U klasi StabloOsoba, implementirati metod koji
-pronalazi i vraca roditelja datog elementa. Ako
-je prosledjeni element koren celog stabla
-vratiti null.
-
+U klasi StabloOsoba, implementirati metod koji pronalazi i vraca rodit-
+elja datog elementa. Ako je prosledjeni element koren celog stabla vra-
+titi null.
 
 public Osoba optimalnaOsoba(Comparator<Osoba> komparator, Cvor cvor)
---------------------------------------
+--------------------------------------------------------------------
+U klasi StabloOsoba, implementirati metod koji pronalazi i vraca optim-
+alni element stabla. Prilikom pretrage koristiti prosledjeni komparato-
+r.
 
-U klasi StabloOsoba, implementirati metod koji
-pronalazi i vraca optimalni element stabla.
+=============
+DOMACI ZADACI
+=============
 
-Prilikom pretrage koristiti prosledjeni komparator.
+public StabloOsoba kopija()
+---------------------------
+U klasi StabloOsoba implementirati metod koji vraca kopiju stabla. Pot-
+rebno je iskopirati i sve cvorove kako izmene jednog stabla ne bi utic-
+ale na drugo.
 
-DOMACI ZADACI:
-    public StabloOsoba kopija()
-    -------------------------
+public StabloOsoba obrnuto()
+----------------------------
+U klasi StabloOsoba, implementirati metod koji vraca novo stablo nasta-
+lo obrtanjem originalng. Stablo se obrce tako sto se zamene mesta levih
+i desnih podstabala koja se pre toga takodje obrnu. Posle poziva metoda
+originalno stablo mora ostati nepromenjeno.
 
-    U klasi StabloOsoba, implementirati metod koji
-    vraca kopiju stabla.
-
-    Potrebno je iskopirati i sve cvorove kako izmene
-    jednog stabla ne bi uticale na drugo.
-
-
-    public StabloOsoba obrnuto()
-    --------------------------
-
-    U klasi StabloOsoba, implementirati metod koji
-    vraca novo stablo nastalo obrtanjem originalng.
-    Stablo se obrce tako sto se zamene mesta levih
-    i desnih podstabala koja se pre toga takodje
-    obrnu.
-
-    Posle poziva metoda originalno stablo mora ostati
-    nepromenjeno.
+public Osoba drugaPoReduSaNajvecomPlatom()
+------------------------------------------
+U klasi StabloOsoba potrebno je implementirati metod koji nalazi i vra-
+ca osobu koja je druga po redu po velicini plate.

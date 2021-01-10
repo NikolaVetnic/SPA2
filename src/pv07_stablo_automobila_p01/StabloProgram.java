@@ -194,6 +194,9 @@ public class StabloProgram {
 		
 		// -------- ovde dodati pozive metoda ----------
 		
+		if (stablo.jeBST()) System.out.println("Stablo jeste binarno stablo pretrage.");
+		else				System.out.println("Stablo nije binarno stablo pretrage.");
+		
 		stablo.ispisiXY("ns");
 		System.out.println();
 		

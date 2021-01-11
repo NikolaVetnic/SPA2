@@ -1,4 +1,4 @@
-package p06_backtrack;
+package p06_backtrack_nqueens;
 
 public class NQueensMin {
 	

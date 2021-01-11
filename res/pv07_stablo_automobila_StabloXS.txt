@@ -1,6 +1,6 @@
-  /-----(o) Zastava 101;Bela;NI 761-VZ;39325
+  /-----(o) Zastava 101;Bela;NI 761-VZ;139325
   |      |
-  |      \-----(o) Lancia Lybra;Siva;SU 741-KC;24260
+  |      \-----(o) Lancia Lybra;Siva;SU 741-KC;124260
   |
 -(o) Renault Twingo;Bela;NI 747-EF;44580
   |

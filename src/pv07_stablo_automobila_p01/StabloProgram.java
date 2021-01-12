@@ -172,8 +172,8 @@ class Stablo {
 		if (cvor.info.getKilometraza() < min || cvor.info.getKilometraza() > max)
 			return false;
 		
-		return (isBSTUtil(cvor.levo, min, cvor.info.getKilometraza() - 1) && 
-				isBSTUtil(cvor.desno, cvor.info.getKilometraza() + 1, max));
+		return isBSTUtil(cvor.levo, min, cvor.info.getKilometraza() - 1) && 
+			   isBSTUtil(cvor.desno, cvor.info.getKilometraza() + 1, max) ;
 	}
 }
 

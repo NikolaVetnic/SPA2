@@ -48,188 +48,6 @@ class StabloOsoba {
     protected StabloOsoba(Cvor koren) {
         this.koren = koren;
     }
-
-    
-//    public boolean jePrazno(){
-//        if (koren == null)
-//            return true;
-//        return false;
-//    }
-//
-//    
-//    public boolean postojiElement(Cvor cvor, Osoba osoba){
-//        if (cvor == null)
-//            return false;
-//
-//        if (Objects.equals(cvor.osoba, osoba))
-//            return true;
-//
-//        boolean nadjenLevo = postojiElement(cvor.levo, osoba);
-//        if (nadjenLevo)
-//            return nadjenLevo;
-//
-//        boolean nadjenDesno = postojiElement(cvor.desno, osoba);
-//        if (nadjenDesno)
-//            return nadjenDesno;
-//
-//        return false;
-//
-//    }
-//
-//    
-//    public void stampajPreorder(Cvor cvor){
-//        if (cvor == null)
-//            return;
-//
-//        System.out.println(cvor.osoba);
-//        stampajPreorder(cvor.levo);
-//        stampajPreorder(cvor.desno);
-//    }
-//
-//    
-//    public void stampajInorder(Cvor cvor){
-//        if (cvor == null)
-//            return;
-//
-//        stampajPreorder(cvor.levo);
-//        System.out.println(cvor.osoba);
-//        stampajPreorder(cvor.desno);
-//    }
-//    
-//
-//    public void stampajPostorder(Cvor cvor){
-//        if (cvor == null)
-//            return;
-//
-//        stampajPreorder(cvor.levo);
-//        stampajPreorder(cvor.desno);
-//        System.out.println(cvor.osoba);
-//    }
-//
-//    
-//    public void stampajListove(Cvor cvor){
-//        if (cvor == null)
-//            return;
-//
-//        if (cvor.levo == null && cvor.desno == null)
-//            System.out.println(cvor.osoba);
-//        else{
-//            stampajListove(cvor.levo);
-//            stampajListove(cvor.desno);
-//        }    
-//    }
-//    
-//
-//    public StabloOsoba pronadjiOsobu(Osoba osoba){
-//        Cvor cvor = pronadjiOsobu(koren, osoba);
-//        if (cvor == null)
-//            return null;
-//        return new StabloOsoba(cvor);
-//    }
-//    
-//
-//    private Cvor pronadjiOsobu(Cvor cvor, Osoba osoba){
-//        if (cvor == null)
-//            return null;
-//
-//        if (Objects.equals(cvor.osoba, osoba))
-//            return cvor;
-//
-//        Cvor nadjenLevo = pronadjiOsobu(cvor.levo, osoba);
-//        if (nadjenLevo != null)
-//            return nadjenLevo;
-//
-//        Cvor nadjenDesno = pronadjiOsobu(cvor.desno, osoba);
-//        if (nadjenDesno != null)
-//            return nadjenDesno;
-//
-//        return null;
-//    }
-//    
-//
-//    public List<Osoba> stampajSveIspod(Osoba sef){
-//        List<Osoba> osobe = new ArrayList<Osoba>();
-//        Cvor cvor = pronadjiOsobu(koren, sef);
-//        if (cvor != null)
-//            sveOsobe(cvor, osobe);
-//        return osobe;
-//    }
-//
-//    
-//    private void sveOsobe(Cvor cvor, List<Osoba> lista){
-//        if (cvor == null)
-//            return;
-//
-//        sveOsobe(cvor.levo, lista);
-//        lista.add(cvor.osoba);
-//        sveOsobe(cvor.desno, lista);
-//    }
-//    
-//
-//    public boolean ubaci(Osoba roditelj, Osoba potomak, boolean levo){
-//        Cvor cvor = pronadjiOsobu(koren, roditelj);
-//        if (levo && cvor.levo == null) {
-//            cvor.levo = new Cvor(potomak, null, null);
-//            return true;
-//        }
-//
-//        if (!levo && cvor.desno == null) {
-//            cvor.desno = new Cvor(potomak, null, null);
-//            return true;
-//        }
-//
-//        return false;
-//    }
-//
-//    
-//    public Osoba roditeljOd(Osoba potomak){
-//        Cvor cvor = roditeljOd(koren, null, potomak);
-//        if (cvor == null)
-//            return null;
-//        return cvor.osoba;
-//
-//    }
-//
-//    
-//    private Cvor roditeljOd(Cvor tekuci, Cvor roditelj, Osoba potomak){
-//        if (tekuci == null)
-//            return null;
-//        if (Objects.equals(tekuci.osoba, potomak))
-//            return roditelj;
-//
-//        Cvor roditeljLevo = roditeljOd(tekuci.levo, tekuci, potomak);
-//        if (roditeljLevo != null)
-//            return roditeljLevo;
-//
-//        Cvor roditeljDesno = roditeljOd(tekuci.desno, tekuci, potomak);
-//        if (roditeljDesno != null)
-//            return roditeljDesno;
-//
-//        return null;
-//    }
-//    
-//
-//    public Osoba optimalnaOsoba(Comparator<Osoba> komparator, Cvor cvor){
-//        if (cvor == null)
-//            return null;
-//
-//        Osoba optimalnaLevo, optimalnaDesno;
-//        Osoba optimalna = cvor.osoba;
-//
-//        if (cvor.levo != null) {
-//            optimalnaLevo = optimalnaOsoba(komparator, cvor.levo);
-//            if (komparator.compare(optimalna, optimalnaLevo) <0)
-//                optimalna = optimalnaLevo;
-//        }
-//
-//        if (cvor.desno != null) {
-//            optimalnaDesno = optimalnaOsoba(komparator, cvor.desno);
-//            if (komparator.compare(optimalna, optimalnaDesno) <0)
-//                optimalna = optimalnaDesno;
-//        }
-//
-//        return optimalna;
-//    }
     
     
     public boolean jePrazno() {
@@ -478,5 +296,23 @@ class StabloOsoba {
 		prodjiKrozStablo(koren, pd);
 		
 		return pd.o2;
+	}
+	
+	
+	public boolean jeBST() {
+		return jeBST(koren, Integer.MIN_VALUE, Integer.MAX_VALUE);
+	}
+
+
+	private boolean jeBST(Cvor cvor, int min, int max) {
+		
+		if (cvor == null)
+			return true;
+		
+		if (cvor.osoba.getPlata() < min || cvor.osoba.getPlata() > max)
+			return false;
+		
+		return jeBST(cvor.levo, min, cvor.osoba.getPlata() - 1) && 
+			   jeBST(cvor.desno, cvor.osoba.getPlata() + 1, max) ;
 	}
 }

@@ -1,0 +1,9 @@
+  /-----(o) Cetkica za zube;200.49;true;1
+  |      |
+  |      \-----(o) Feta sir;314.49;false;0
+  |
+-(o) Majonez;166.49;false;60
+  |      
+  |      /----(o) Jafa keks od jabuke * unlimited edition *;271.99;false;3
+  |      |
+  \-----(o) Jogurt;158.99;true;0

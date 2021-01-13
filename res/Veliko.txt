@@ -1,0 +1,61 @@
+                /-----(o) Cajna kobasica;340.49;true;39
+                |
+         /-----(o) Sremska kobasica;322.49;true;32
+         |      |
+         |      |      /-----(o) Feta sir;314.49;true;22
+         |      |      |
+         |      \-----(o) 10g fensi praska za pecivo;289.99;false;32
+         |             |
+         |             \-----(o) Keks domacica;273.99;false;9
+         |                    |
+         |                    \-----(o) Jafa keks od jabuke * unlimited edition *;271.99;true;27
+         |                           |
+         |                           \-----(o) Avokado;262.49;false;71
+         |                                  |
+         |                                  \-----(o) Sapun 6+1 gratis;247.99;true;10
+         |
+  /-----(o) Sir edamer;244.49;false;37
+  |      |
+  |      |      /-----(o) Sampon za kosu;222.99;true;27
+  |      |      |
+  |      \-----(o) Musli;203.99;true;0
+  |             |
+  |             |      /-----(o) Cetkica za zube;200.49;true;34
+  |             |      |
+  |             \-----(o) Sok od borovnice;190.99;false;47
+  |                    |
+  |                    \-----(o) Sok od jabuke;182.49;false;96
+  |                           |
+  |                           \-----(o) Milka cokolada;177.49;false;71
+  |
+-(o) Mleko;166.49;true;60
+  |
+  |      /-----(o) Jogurt;158.99;false;99
+  |      |      |
+  |      |      |      /-----(o) Zdenka sir;153.49;true;53
+  |      |      |      |
+  |      |      \-----(o) Vocni jogurt;151.49;false;78
+  |      |             |
+  |      |             \-----(o) Biskvit sa B vitaminom;132.49;false;81
+  |      |
+  \-----(o) Krosan 7 Days;109.49;true;0
+         |
+         |      /-----(o) Integralni hleb;92.49;true;13
+         |      |
+         \-----(o) Mleko;86.49;false;55
+                |
+                \-----(o) Majonez;62.99;true;95
+                       |
+                       |             /-----(o) Hlab sa susamom;62.49;false;52
+                       |             |      |
+                       |             |      |             /-----(o) Pavlaka;47.49;false;78
+                       |             |      |             |
+                       |             |      |      /-----(o) Hleb;36.49;true;16
+                       |             |      |      |
+                       |             |      \-----(o) Pavlaka;31.49;false;60
+                       |             |             |
+                       |             |             \-----(o) Sundjer;29.49;false;0
+                       |             |
+                       |      /-----(o) Majonez;27.99;true;92
+                       |      |
+                       \-----(o) Zvaka;9.99;false;21

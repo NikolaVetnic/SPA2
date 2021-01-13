@@ -1,8 +1,8 @@
-package pv07_stablo_osoba_p03;
+package pv07_stablo_osoba_p04;
 
 import java.util.Objects;
 
-import pv07_stablo_osoba_p03.StabloOsoba.Cvor;
+import pv07_stablo_osoba_p04.StabloOsoba.Cvor;
 
 public class PosetilacRoditelj implements IPoseti {
 	
@@ -16,7 +16,8 @@ public class PosetilacRoditelj implements IPoseti {
 
 	@Override
 	public void posetiCvor(Cvor cvor) {
-		if (Objects.equals(cvor.levo.osoba, potomak) || Objects.equals(cvor.desno.osoba, potomak))
+		if ((cvor.levo != null && Objects.equals(cvor.levo.osoba, potomak)) || 
+			(cvor.desno != null && Objects.equals(cvor.desno.osoba, potomak)))
 			this.roditelj = cvor.osoba;
 	}
 }

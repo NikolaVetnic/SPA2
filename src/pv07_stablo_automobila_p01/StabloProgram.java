@@ -161,14 +161,19 @@ class Stablo {
 
 
 	public boolean jeBST() {
+		return isBSTUtil(koren, Long.MIN_VALUE, Long.MAX_VALUE);
+	}
+
+	private boolean isBSTUtil(Cvor cvor, long min, long max) {
 		
-		if (koren == null)
+		if (cvor == null)
+			return true;
+		
+		if (cvor.info.getKilometraza() < min || cvor.info.getKilometraza() > max)
 			return false;
 		
-		PosetiBST posetilac = new PosetiBST();
-		prodjiKrozStablo(koren, posetilac);
-		
-		return posetilac.jeBST();
+		return isBSTUtil(cvor.levo, min, cvor.info.getKilometraza() - 1) && 
+			   isBSTUtil(cvor.desno, cvor.info.getKilometraza() + 1, max) ;
 	}
 }
 
@@ -182,7 +187,7 @@ public class StabloProgram {
 		TreeIO<Stablo> io = new TreeIO<>(Stablo.class);
 
 		// Procitamo stablo iz fajla
-		Stablo stablo = io.read(Svetovid.in("res//pv07_stablo_automobila_StabloS.txt"));
+		Stablo stablo = io.read(Svetovid.in("res//pv07_stablo_automobila_StabloM.txt"));
 		// alternativno mozemo iz nekog drugog fajla
 		// otkomentarisati neki od redova dole, a skloniti ovaj iznad
 		//Stablo stablo = io.read(Svetovid.in("Veliko.txt"));

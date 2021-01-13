@@ -1,5 +1,6 @@
 package pv07_stablo_automobila_p02;
 
+import java.util.Comparator;
 import java.util.List;
 
 import org.svetovid.Svetovid;
@@ -123,13 +124,19 @@ class Stablo {
 	}
 	
 	public boolean jeBST() {
+		return isBSTUtil(koren, Long.MIN_VALUE, Long.MAX_VALUE);
+	}
+
+	private boolean isBSTUtil(Cvor cvor, long min, long max) {
 		
-		if (koren == null) return true;
+		if (cvor == null)
+			return true;
 		
-		PosetilacBST pb = new PosetilacBST();
-		prodjiKrozStablo(koren, pb);
+		if (cvor.info.getKilometraza() < min || cvor.info.getKilometraza() > max)
+			return false;
 		
-		return pb.jeBST;
+		return isBSTUtil(cvor.levo, min, cvor.info.getKilometraza() - 1) && 
+			   isBSTUtil(cvor.desno, cvor.info.getKilometraza() + 1, max) ;
 	}
 }
 
@@ -143,7 +150,7 @@ public class StabloProgram {
 		TreeIO<Stablo> io = new TreeIO<>(Stablo.class);
 
 		// Procitamo stablo iz fajla
-		Stablo stablo = io.read(Svetovid.in("res//pv07_stablo_automobila_StabloM.txt"));
+		Stablo stablo = io.read(Svetovid.in("res//pv07_stablo_automobila_StabloS.txt"));
 		// alternativno mozemo iz nekog drugog fajla
 		// otkomentarisati neki od redova dole, a skloniti ovaj iznad
 		//Stablo stablo = io.read(Svetovid.in("Veliko.txt"));
@@ -154,6 +161,7 @@ public class StabloProgram {
 		System.out.println();
 
 		// -------- ovde dodati pozive metoda ----------
+		
 		stablo.ispisiNS();
 		System.out.println();
 		

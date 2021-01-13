@@ -13,7 +13,7 @@ public class CharSheet {
 	
 	public static final Vector CHAR_SIZE 	= Vector.xy(8, 16);
 	public static final Vector SHEET_SIZE 	= Vector.xy(32, 8);
-	public static final String SHEET_PATH	= "images/charsheet_transparent.png";
+	public static final String SHEET_PATH	= "img//charsheet_transparent.png";
 	
 	public static int[][] badChars = { 
 			{  0, 0 }, {  2, 0 }, {  8, 0 }, { 10,  0 },

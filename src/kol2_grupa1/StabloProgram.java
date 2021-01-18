@@ -43,7 +43,7 @@ class Stablo {
     	PosetilacStanje p = new PosetilacStanje();
     	prodjiKrozStablo(koren, p);
     	
-    	return p.nemaNaStanju;
+    	return p.nemaNaStanju.size();
     }
     
     public Stablo snizenje() {
@@ -129,7 +129,7 @@ public class StabloProgram {
 		TreeIO<Stablo> io = new TreeIO<>(Stablo.class);
 
 		// Procitamo stablo iz fajla
-		Stablo stablo = io.read(Svetovid.in("res//Malo.txt"));
+		Stablo stablo = io.read(Svetovid.in("res//kol2_grupa1_malo.txt"));
 		// alternativno mozemo iz nekog drugog fajla
 		// otkomentarisati neki od redova dole, a skloniti ovaj iznad
 		//Stablo stablo = io.read(Svetovid.in("Veliko.txt"));

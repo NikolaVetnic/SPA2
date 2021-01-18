@@ -4,6 +4,8 @@
   |
 -(o) Majonez;1166.49;false;60
   |
+  |		 /-----(o) Jogurt;1158.99;false;0
+  |		 |
   \-----(o) Jogurt;1158.99;false;0
          |
          |      /-----(o) Jafa keks od jabuke * unlimited edition *;271.99;true;3

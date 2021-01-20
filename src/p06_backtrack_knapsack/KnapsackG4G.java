@@ -1,12 +1,12 @@
 package p06_backtrack_knapsack;
 
-public class KnapSackG4G {
+public class KnapsackG4G {
 
 	private static int max(int a, int b) {
 		return a > b ? a : b;
 	}
 	
-	public static int knapSack(int W, int[] wgt, int[] val, int n) {
+	public static int knapsack(int W, int[] wgt, int[] val, int n) {
 	
 		/*
 		 * Naivno rekurzivno resenje problema rukzaka.
@@ -24,15 +24,15 @@ public class KnapSackG4G {
 		 * utno prima ranac odustajemo od ubacivanja.
 		 */ 
 		if (wgt[n - 1] > W)
-			return knapSack(W, wgt, val, n - 1);
+			return knapsack(W, wgt, val, n - 1);
 		/*
 		 * Ako nije uzimamo vecu od dve varijante, kada kada ubacimo predm-
 		 * et i kada ga ne ubacimo.
 		 */
 		else
 			return max(
-					val[n - 1] + knapSack(W - wgt[n - 1], wgt, val, n - 1),
-					knapSack(W, wgt, val, n - 1));
+					val[n - 1] + knapsack(W - wgt[n - 1], wgt, val, n - 1),
+					knapsack(W, wgt, val, n - 1));
 	}
 	
 	public static void main(String[] args) {
@@ -43,6 +43,6 @@ public class KnapSackG4G {
         int W = 11; 
         int n = val.length;
         
-        System.out.println(knapSack(W, wt, val, n)); 
+        System.out.println(knapsack(W, wt, val, n)); 
 	}
 }

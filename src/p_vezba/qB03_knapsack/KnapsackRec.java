@@ -1,4 +1,4 @@
-package p06_backtrack_knapsack;
+package p_vezba.qB03_knapsack;
 
 public class KnapsackRec {
 	

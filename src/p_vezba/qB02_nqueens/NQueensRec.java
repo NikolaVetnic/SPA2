@@ -1,4 +1,4 @@
-package p06_backtrack_nqueens;
+package p_vezba.qB02_nqueens;
 
 public class NQueensRec {
 

@@ -61,6 +61,7 @@ public class NQueensRec {
 		return true;
 	}
 	
+	
 	public static void main(String[] args) {
 		NQueens nq = new NQueens(8);
 		nq.find();

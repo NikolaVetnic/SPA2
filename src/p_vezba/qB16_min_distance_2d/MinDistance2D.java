@@ -1,4 +1,4 @@
-package p_vezba.qB16_string_distance;
+package p_vezba.qB16_min_distance_2d;
 
 import java.util.Arrays;
 import java.util.Comparator;

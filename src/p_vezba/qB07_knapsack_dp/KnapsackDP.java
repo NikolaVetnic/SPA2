@@ -66,8 +66,6 @@ public class KnapsackDP {
 	
 	public LinkedList<Item> getAddedItems() {
 		
-		
-		
 		LinkedList<Item> l = new LinkedList<>();
 		
 		int i = items.length - 1;

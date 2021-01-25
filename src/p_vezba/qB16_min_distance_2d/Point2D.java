@@ -1,4 +1,4 @@
-package p_vezba.qB16_string_distance;
+package p_vezba.qB16_min_distance_2d;
 
 public class Point2D {
 

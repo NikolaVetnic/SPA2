@@ -65,6 +65,7 @@ public class KnapsackBB {
 			}
 		} else {
 			if (items[k].weight() + currentWeight <= knapsackWeight) {
+				
 				int nextWeight = currentWeight + items[k].weight();
 				int nextProfit = currentProfit + items[k].profit();
 				

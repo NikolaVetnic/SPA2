@@ -104,7 +104,7 @@ public class BinaryTree<T extends Comparable<T>> {
 	}
 	
 	
-	private BTNode<T> bfs (T info) {
+	public BTNode<T> bfs (T info) {
 		
 		if (root == null) return null;
 		

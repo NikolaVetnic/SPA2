@@ -1,13 +1,15 @@
 package p_vezba.qB12_13_bintree_adt_set;
 
-public class BST<T extends Comparable <T>> {
+import java.util.Random;
+
+public class BSTClean<T extends Comparable <T>> {
 
 	
 	private BTNode<T> root;
 	
 	
-	public BST() 						{ this.root = null; 	}
-	public BST(BTNode<T> root) 			{ this.root = root; 	}
+	public BSTClean() 						{ this.root = null; 	}
+	public BSTClean(BTNode<T> root) 			{ this.root = root; 	}
 	
 	
 	public BTNode<T> root()				{ return root;			}
@@ -155,5 +157,44 @@ public class BST<T extends Comparable <T>> {
 			minParent.setLeft(min.right());
 		
 		toRemove.setInfo(minInfo);
+	}
+	
+	
+	public void printInOrder() {
+		
+		System.out.print("[ ");
+		printInOrder(root);
+		System.out.println("]\n");
+	}
+	
+	
+	private void printInOrder(BTNode<T> node) {
+		
+		if (node == null) return;
+		
+		printInOrder(node.left());
+		System.out.print(node + " ");
+		printInOrder(node.right());
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		BSTClean s = new BSTClean();
+		
+		for (int i = 0; i < 10; i++) {
+			int n = new Random().nextInt(10);
+			System.out.println("Inserting " + n + "...");
+			s.insert(n);
+		}
+		
+		s.printInOrder();
+
+		for (int i = 0; i < 10; i++) {
+			int n = new Random().nextInt(10);
+			if (s.remove(n)) System.out.println("Deleted " + n + "...");
+		}
+		
+		s.printInOrder();
 	}
 }

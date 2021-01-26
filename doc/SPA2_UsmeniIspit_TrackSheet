@@ -1,0 +1,14 @@
+SPA2 Kod za usmeni TRACK SHEET
+
+qA01_bruteforce_insertion	OK
+qA02_selection_bubble		OK
+qA03_shell					MEDIUM (mehanizam duple petlje)
+qA04_comb					MEDIUM (izlasci iz do-while petlje)		
+
+qB02_nqueens				OK
+qB03_knapsack				OK
+qB04_knapsack_bb			OK
+qB07_knapsack_dp			MEDIUM (dupla petlja, vracanje itema)
+qB08_string_distance		OK
+qB09_10_11_binary_tree		FirstRun
+qB12_13_bintree_adt_set		FirstRun

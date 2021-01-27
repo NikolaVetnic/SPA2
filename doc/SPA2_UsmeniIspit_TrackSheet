@@ -10,5 +10,6 @@ qB03_knapsack				OK
 qB04_knapsack_bb			OK
 qB07_knapsack_dp			MEDIUM (dupla petlja, vracanje itema)
 qB08_string_distance		OK
-qB09_10_11_binary_tree		FirstRun
-qB12_13_bintree_adt_set		FirstRun
+qB09_10_11_binary_tree		OK
+qB12_13_bintree_adt_set		OK
+qB14_huffman_tree			FirstRun

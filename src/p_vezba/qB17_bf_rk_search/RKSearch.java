@@ -42,7 +42,6 @@ public class RKSearch {
 	
 	
 	/*
-	 * U slucaju kada su svi elementi sortiranog dela niza veci od prv-
 	 * Azurira vrednost hash funkcije za podstring txt tako sto se bri-
 	 * se karakter na poziciji pos i dodaje prvi sledeci karakter (koji
 	 * je na poziciji pos + pat.length).

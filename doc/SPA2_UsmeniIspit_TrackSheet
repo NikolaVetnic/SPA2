@@ -13,3 +13,5 @@ qB08_string_distance		OK
 qB09_10_11_binary_tree		OK
 qB12_13_bintree_adt_set		OK
 qB14_huffman_tree			FirstRun
+qB16_min_distance_2d		FirstRun
+qB17_bf_rk_search			FirstRun

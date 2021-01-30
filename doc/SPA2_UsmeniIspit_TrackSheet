@@ -2,8 +2,11 @@ SPA2 Kod za usmeni TRACK SHEET
 
 qA01_bruteforce_insertion	OK
 qA02_selection_bubble		OK
-qA03_shell					MEDIUM (mehanizam duple petlje)
-qA04_comb					MEDIUM (izlasci iz do-while petlje)		
+qA03_shell					OK
+qA04_comb					OK
+qA05_heap					OK
+qA06_quick_hoare			OK
+qA06_quick_lomuto			OK
 
 qB02_nqueens				OK
 qB03_knapsack				OK

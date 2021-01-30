@@ -7,6 +7,9 @@ qA04_comb					OK
 qA05_heap					OK
 qA06_quick_hoare			OK
 qA06_quick_lomuto			OK
+qA07_list_insertion			OK
+qA08_list_merge				OK
+
 
 qB02_nqueens				OK
 qB03_knapsack				OK

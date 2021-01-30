@@ -1,12 +1,18 @@
 SPA2 Kod za usmeni TRACK SHEET
 
-qA01_bruteforce_insertion	OK
-qA02_selection_bubble		OK
-qA03_shell					OK
-qA04_comb					OK
-qA05_heap					OK
-qA06_quick_hoare			OK
-qA06_quick_lomuto			OK
+qA01_bruteforce_insertion	GREAT
+qA02_selection_bubble		GREAT
+qA03_shell					GREAT
+qA04_comb					GREAT
+qA05_heap					GREAT
+qA06_quick_hoare			GREAT
+qA06_quick_lomuto			GREAT
+qA07_list_insertion			GREAT
+qA08_list_merge				GREAT
+qA09_list_quick				GREAT
+qA10_11_priority_queue		OK
+qA12_open_hash_set			OK
+
 
 qB02_nqueens				OK
 qB03_knapsack				OK

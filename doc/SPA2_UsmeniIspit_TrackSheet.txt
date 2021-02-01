@@ -10,8 +10,8 @@ qA06_quick_lomuto			GREAT
 qA07_list_insertion			GREAT
 qA08_list_merge				GREAT
 qA09_list_quick				GREAT
-qA10_11_priority_queue		OK
-qA12_open_hash_set			OK
+qA10_11_priority_queue		MEDIUM
+qA12_open_hash_set			GREAT
 
 
 qB02_nqueens				OK

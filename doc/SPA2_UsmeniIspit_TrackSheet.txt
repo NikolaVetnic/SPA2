@@ -10,9 +10,10 @@ qA06_quick_lomuto			GREAT
 qA07_list_insertion			GREAT
 qA08_list_merge				GREAT
 qA09_list_quick				GREAT
-qA10_11_priority_queue		MEDIUM
+qA10_11_priority_queue		GREAT
 qA12_open_hash_set			GREAT
-
+qA13_14_closed_hash_set		GREAT
+qA15_16_open_hash_map		GREAT
 
 qB02_nqueens				OK
 qB03_knapsack				OK
@@ -24,3 +25,4 @@ qB12_13_bintree_adt_set		OK
 qB14_huffman_tree			FirstRun
 qB16_min_distance_2d		FirstRun
 qB17_bf_rk_search			FirstRun
+qB18_quick_search			

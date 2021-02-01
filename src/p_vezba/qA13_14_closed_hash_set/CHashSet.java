@@ -84,6 +84,8 @@ public class CHashSet<T> {
 				if (status[currentPosition] == Status.EMPTY)
 					endOfChain = true;
 			}
+			
+			i++;
 		}
 		
 		if (firstAvailablePosition == -1 || loadFactor() > 0.7) {

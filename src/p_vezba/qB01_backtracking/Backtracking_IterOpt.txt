@@ -1,0 +1,23 @@
+Vector C;
+
+void backtracking() {
+	Vector D;
+	int k = 0;
+	
+	D[0] = first available >= min;
+	
+	while (k >= 0) {
+		while (D[k] <= max) {
+			C[k] = D[k];
+			D[k] = first available > D[k] or max + 1 (when none available)
+			
+			if (k == C.length - 1) {
+				printSolution();
+			} else {
+				k++;
+				D[k] = first available >= min or max + 1 (when none available)
+			}
+		}
+		k--;
+	}
+}

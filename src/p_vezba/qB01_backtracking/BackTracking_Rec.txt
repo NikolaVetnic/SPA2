@@ -1,0 +1,19 @@
+Vector C;
+
+void backtracking() {
+	backtracking(0);
+}
+
+void backtracking(int k) {
+	compute D;
+	
+	while (!D.empty) {
+		f = remove first from D;
+		C[k] = f;
+		if (k == C.length - 1) {
+			printSolution();
+		} else {
+			backtracking(k + 1);
+		}
+	}
+}

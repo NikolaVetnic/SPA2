@@ -1,27 +1,27 @@
 SPA2 Kod za usmeni TRACK SHEET
 
-qA01_bruteforce_insertion	GREAT+
-qA02_selection_bubble		GREAT+
-qA03_shell					GREAT+
-qA04_comb					GREAT+
-qA05_heap					GREAT+
-qA06_quick_hoare			GREAT+
-qA06_quick_lomuto			GREAT+
-qA07_list_insertion			GREAT+
-qA08_list_merge				GREAT+
-qA09_list_quick				GREAT+
-qA10_11_priority_queue		GREAT+
-qA12_open_hash_set			GREAT+
+qA01_bruteforce_insertion	GREAT++
+qA02_selection_bubble		GREAT++
+qA03_shell					GREAT++
+qA04_comb					GREAT++
+qA05_heap					GREAT++
+qA06_quick_hoare			GREAT++
+qA06_quick_lomuto			GREAT++
+qA07_list_insertion			GREAT++
+qA08_list_merge				GREAT++
+qA09_list_quick				GREAT++
+qA10_11_priority_queue		GREAT++
+qA12_open_hash_set			GREAT++
 qA13_14_closed_hash_set		GREAT++
-qA15_16_open_hash_map		GREAT+
+qA15_16_open_hash_map		GREAT++
 
-qB01_backtracking			GREAT
-qB02_nqueens				GREAT+
-qB03_knapsack				GREAT+
-qB04_knapsack_bb			GREAT+
-qB07_knapsack_dp			GREAT+
-qB08_string_distance		OK
-qB09_10_11_binary_tree		OK
+qB01_backtracking			GREAT++
+qB02_nqueens				GREAT++
+qB03_knapsack				GREAT++
+qB04_knapsack_bb			GREAT++
+qB07_knapsack_dp			GREAT++
+qB08_string_distance		GREAT			nedostaje getExplanation()
+qB09_10_11_binary_tree		GREAT
 qB12_13_bintree_adt_set		OK
 qB14_huffman_tree			FirstRun
 qB16_min_distance_2d		FirstRun

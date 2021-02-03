@@ -1,5 +1,7 @@
 package p_vezba.qB08_string_distance;
 
+import java.util.Stack;
+
 public class EditDistance {
 
 	
@@ -42,6 +44,54 @@ public class EditDistance {
 	
 	public int getDistance() {
 		return d[s1.length()][s2.length()];
+	}
+	
+	
+	public void getExplanation() { 
+		
+		int i = s1.length(); 
+		int j = s2.length();
+		
+		Stack<String> messages = new Stack<String>(); 
+		
+		int[] di = {-1, -1, 0};		// prirastaji
+		int[] dj = {-1, 0, -1};
+	
+		while (d[i][j] > 0) {
+			
+			int min = Integer.MAX_VALUE; 
+			int minIndex = -1;
+	
+			for (int k = 0; k < di.length; k++) {
+				if (i+di[k]>=0&&j+dj[k]>=0) {
+					if (d[i + di[k]][j + dj[k]] < min) { 
+						min = d[i + di[k]][j + dj[k]]; 
+						minIndex = k;
+					}
+				}
+			}
+			
+			if (minIndex == 0) {
+				if (d[i][j] != min)
+					messages.push(s1.charAt(i - 1) + " --> " + s2.charAt(j - 1));
+				i--;
+				j--;
+			} else if (minIndex == 1) {
+				i--;
+				messages.push(s1.charAt(i) + " deleted");
+			} else {
+				j--;
+				messages.push(s2.charAt(j) + " inserted");
+			}
+		}
+		
+		if (messages.isEmpty()) {
+			System.out.println("Identical strings...");
+		} else {
+			System.out.println("Transformations: ");
+			while (!messages.isEmpty())
+				System.out.println(messages.pop());
+		}
 	}
 	
 	

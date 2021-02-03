@@ -8,8 +8,8 @@ public class BSTClean<T extends Comparable <T>> {
 	private BTNode<T> root;
 	
 	
-	public BSTClean() 						{ this.root = null; 	}
-	public BSTClean(BTNode<T> root) 			{ this.root = root; 	}
+	public BSTClean() 					{ this.root = null; 	}
+	public BSTClean(BTNode<T> root) 	{ this.root = root; 	}
 	
 	
 	public BTNode<T> root()				{ return root;			}

@@ -34,6 +34,11 @@ public class RKSearch {
 		
 		int hash = 0;
 		
+	/*
+	 * Dopuna Hornerove seme sa ostatkom pri deljenju, pri cemu je osn-
+	 * ova izraza : (a[n] * x + a[n - 1])
+	 */ 
+		
 		for (int i = 0; i < len; i++)
 			hash = ((31 * hash) % LP + str.charAt(i)) % LP;
 		

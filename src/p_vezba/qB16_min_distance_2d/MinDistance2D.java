@@ -21,7 +21,7 @@ public class MinDistance2D {
 	private static class XComparator implements Comparator<Point2D> {
 		public int compare(Point2D arg0, Point2D arg1) {
 			double d = arg0.x - arg1.x;
-			if (d < 0)		return -1;
+			if 		(d < 0)	return -1;
 			else if (d > 0) return  1;
 			else			return  0;
 		}
@@ -31,7 +31,7 @@ public class MinDistance2D {
 	private static class YComparator implements Comparator<Point2D> {
 		public int compare(Point2D arg0, Point2D arg1) {
 			double d = arg0.y - arg1.y;
-			if (d < 0)		return -1;
+			if 		(d < 0)	return -1;
 			else if (d > 0) return  1;
 			else			return  0;
 		}

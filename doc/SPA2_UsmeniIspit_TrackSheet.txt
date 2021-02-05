@@ -24,6 +24,6 @@ qB08_string_distance		GREAT			nedostaje getExplanation()
 qB09_10_11_binary_tree		GREAT
 qB12_13_bintree_adt_set		OK
 qB14_huffman_tree			FirstRun
-qB16_min_distance_2d		GREAT
-qB17_bf_rk_search			GREAT			formule kod rk_search
-qB18_quick_search			GREAT
+qB16_min_distance_2d		GREAT+
+qB17_bf_rk_search			GREAT+
+qB18_quick_search			GREAT+

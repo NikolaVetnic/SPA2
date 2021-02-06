@@ -1,29 +1,29 @@
 SPA2 Kod za usmeni TRACK SHEET
 
-qA01_bruteforce_insertion	GREAT++
-qA02_selection_bubble		GREAT++
-qA03_shell					GREAT++
-qA04_comb					GREAT++
-qA05_heap					GREAT++
-qA06_quick_hoare			GREAT++
-qA06_quick_lomuto			GREAT++
-qA07_list_insertion			GREAT++
-qA08_list_merge				GREAT++
-qA09_list_quick				GREAT++
-qA10_11_priority_queue		GREAT++
-qA12_open_hash_set			GREAT++
-qA13_14_closed_hash_set		GREAT++
-qA15_16_open_hash_map		GREAT++
+qA01_bruteforce_insertion	+++++ 
+qA02_selection_bubble		+++++ 
+qA03_shell					+++++ 
+qA04_comb					+++++ 
+qA05_heap					+++++ 
+qA06_quick_hoare			+++++ 
+qA06_quick_lomuto			+++++ 
+qA07_list_insertion			+++++ 
+qA08_list_merge				+++++ 
+qA09_list_quick				+++++ 
+qA10_11_priority_queue		+++++ 
+qA12_open_hash_set			+++++ 
+qA13_14_closed_hash_set		+++++ 
+qA15_16_open_hash_map		+++++ 
 
-qB01_backtracking			GREAT++
-qB02_nqueens				GREAT++
-qB03_knapsack				GREAT++
-qB04_knapsack_bb			GREAT++
-qB07_knapsack_dp			GREAT++
-qB08_string_distance		GREAT++			nedostaje getExplanation()
-qB09_10_11_binary_tree		GREAT++
-qB12_13_bintree_adt_set		GREAT++
-qB14_huffman_tree			GREAT++
-qB16_min_distance_2d		GREAT++
-qB17_bf_rk_search			GREAT++
-qB18_quick_search			GREAT++
+qB01_backtracking			+++++ 
+qB02_nqueens				+++++ 
+qB03_knapsack				+++++ 
+qB04_knapsack_bb			+++++ 
+qB07_knapsack_dp			+++++ 
+qB08_string_distance		+++++ 
+qB09_10_11_binary_tree		+++++ 
+qB12_13_bintree_adt_set		+++++ 
+qB14_huffman_tree			+++++ 
+qB16_min_distance_2d		+++++ 
+qB17_bf_rk_search			+++++ 
+qB18_quick_search			+++++ 

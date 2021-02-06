@@ -99,5 +99,6 @@ public class EditDistance {
 		
 		EditDistance ed = new EditDistance("petar", "patrik");
 		System.out.println(ed.getDistance());
+		ed.getExplanation();
 	}
 }

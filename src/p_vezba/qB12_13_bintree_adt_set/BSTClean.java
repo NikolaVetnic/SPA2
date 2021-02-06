@@ -126,7 +126,7 @@ public class BSTClean<T extends Comparable <T>> {
 		
 		if (parent == null) {
 			// uklanja se koren
-			root = null;
+			root = child;
 		} else {
 			
 			boolean left = parent.left() == toRemove;

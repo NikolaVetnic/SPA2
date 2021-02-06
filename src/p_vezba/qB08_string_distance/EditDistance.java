@@ -63,7 +63,7 @@ public class EditDistance {
 			int minIndex = -1;
 	
 			for (int k = 0; k < di.length; k++) {
-				if (i+di[k]>=0&&j+dj[k]>=0) {
+				if (i + di[k] >= 0 && j + dj[k] >= 0) {
 					if (d[i + di[k]][j + dj[k]] < min) { 
 						min = d[i + di[k]][j + dj[k]]; 
 						minIndex = k;

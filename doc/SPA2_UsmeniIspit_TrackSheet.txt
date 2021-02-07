@@ -21,9 +21,9 @@ qB03_knapsack				+++++
 qB04_knapsack_bb			+++++ 
 qB07_knapsack_dp			+++++ 
 qB08_string_distance		+++++ 
-qB09_10_11_binary_tree		+++++ 
-qB12_13_bintree_adt_set		+++++ 
-qB14_huffman_tree			+++++ 
-qB16_min_distance_2d		+++++ 
-qB17_bf_rk_search			+++++ 
-qB18_quick_search			+++++ 
+qB09_10_11_binary_tree		+++++ +
+qB12_13_bintree_adt_set		+++++ +
+qB14_huffman_tree			+++++ +
+qB16_min_distance_2d		+++++ +
+qB17_bf_rk_search			+++++ +
+qB18_quick_search			+++++ +

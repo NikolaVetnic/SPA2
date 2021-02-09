@@ -15,15 +15,15 @@ qA12_open_hash_set			+++++ ++
 qA13_14_closed_hash_set		+++++ ++
 qA15_16_open_hash_map		+++++ ++
 
-qB01_backtracking			+++++ ++
-qB02_nqueens				+++++ ++
-qB03_knapsack				+++++ ++
-qB04_knapsack_bb			+++++ ++
-qB07_knapsack_dp			+++++ ++
-qB08_string_distance		+++++ ++
-qB09_10_11_binary_tree		+++++ ++
-qB12_13_bintree_adt_set		+++++ ++
-qB14_huffman_tree			+++++ ++
-qB16_min_distance_2d		+++++ ++
-qB17_bf_rk_search			+++++ ++
-qB18_quick_search			+++++ ++
+qB01_backtracking			+++++ +++
+qB02_nqueens				+++++ +++
+qB03_knapsack				+++++ +++
+qB04_knapsack_bb			+++++ +++
+qB07_knapsack_dp			+++++ +++
+qB08_string_distance		+++++ +++
+qB09_10_11_binary_tree		+++++ +++
+qB12_13_bintree_adt_set		+++++ +++
+qB14_huffman_tree			+++++ +++
+qB16_min_distance_2d		+++++ +++
+qB17_bf_rk_search			+++++ +++
+qB18_quick_search			+++++ +++

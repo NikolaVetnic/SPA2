@@ -1,0 +1,24 @@
+void backtrack(int knapsackWeight) {
+		
+		Knapsack ks = new Knapsack(knapsackWeight);
+		
+		int k = 0;
+		D[k] = populate(ks);
+		
+		while (k >= 0) {
+			while (!D[k].isEmpty) {
+				
+				Item f = D[k].remove(0);
+				ks.add(f);
+				
+				if (k == items.length)
+					solutions.add(ks.copy());
+				
+				k++;
+				D[k] = populate(ks);
+			}
+			ks.remove();
+			k--;
+		}
+	}
+}

@@ -25,7 +25,7 @@ public class NQueensMinPractice {
 		
 		while (currRow >= 0) {
 			
-			while (firstAvailableCell[currRow] <= n) {
+			while (firstAvailableCell[currRow] < n) {
 				
 				table[currRow] = firstAvailableCell[currRow];
 				firstAvailableCell[currRow]++;

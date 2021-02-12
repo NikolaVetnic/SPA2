@@ -1,19 +1,19 @@
 SPA2 Kod za usmeni TRACK SHEET
 
-qA01_bruteforce_insertion	+++++ ++
-qA02_selection_bubble		+++++ ++
-qA03_shell					+++++ ++
-qA04_comb					+++++ ++
-qA05_heap					+++++ ++
-qA06_quick_hoare			+++++ ++
-qA06_quick_lomuto			+++++ ++
-qA07_list_insertion			+++++ ++
-qA08_list_merge				+++++ ++
-qA09_list_quick				+++++ ++
-qA10_11_priority_queue		+++++ ++
-qA12_open_hash_set			+++++ ++
-qA13_14_closed_hash_set		+++++ ++
-qA15_16_open_hash_map		+++++ ++
+qA01_bruteforce_insertion	+++++ +++
+qA02_selection_bubble		+++++ +++
+qA03_shell					+++++ +++
+qA04_comb					+++++ +++
+qA05_heap					+++++ +++
+qA06_quick_hoare			+++++ +++
+qA06_quick_lomuto			+++++ +++
+qA07_list_insertion			+++++ +++
+qA08_list_merge				+++++ +++
+qA09_list_quick				+++++ +++
+qA10_11_priority_queue		+++++ +++
+qA12_open_hash_set			+++++ +++
+qA13_14_closed_hash_set		+++++ +++
+qA15_16_open_hash_map		+++++ +++
 
 qB01_backtracking			+++++ +++
 qB02_nqueens				+++++ +++
